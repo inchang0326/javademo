@@ -27,7 +27,7 @@ public class OneController {
         return oneService.one(reqBkNm);
     }
 }
-
+// plugins >> restfultool 플러그인
 // restfultool
 // ctrl + alt + /       >> uri 바로찾기
 // option + command + / >> uri 바로찾기
