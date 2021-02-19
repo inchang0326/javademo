@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="3 seconds">
+
+    <!-- To enable JMX Management -->
+    <jmxConfigurator/>
+
+    <property name="logHome" value="./log/"/>
+    <property name="logHomeBackup" value="./log/backup/"/>
+    <timestamp key="bySecond" datePattern="yyyyMMddHHmmss"/>
+
+    <!--
+    Console Appender
+    -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <withJansi>true</withJansi>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>[%d{HH:mm:ss.SSS}:%highlight(%-5p):%cyan(%c):%-5L] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="appenderServer" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}server.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logHomeBackup}server.log.%d{yyMMdd}</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <springProfile name="local">
+                <pattern>[%d{HH:mm:ss.SSS}:%-5p:%c{0}:%L] %m%n</pattern>
+            </springProfile>
+            <springProfile name="!local">
+                <pattern>[%d{HH:mm:ss.SSS}:%-5p:%c{0}] %m%n</pattern>
+            </springProfile>
+        </encoder>
+        <param name="MaxBackupIndex" value="4"/>
+    </appender>
+
+<!--    <logger name="com.example.javademo" level="debug" additivity="true">-->
+<!--        <appender-ref ref="console"/>-->
+<!--    </logger>-->
+
+    <root level="info">
+        <appender-ref ref="console"/>
+        <appender-ref ref="appenderServer"/>
+    </root>
+
+</configuration>
