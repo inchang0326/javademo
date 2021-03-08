@@ -19,14 +19,33 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
+    // Spring
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop' // AOP(Aspect Oriented Programming)
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // DB : Embedded PostgreSQL
+    runtimeOnly "org.postgresql:postgresql"
+    implementation "com.opentable.components:otj-pg-embedded:0.13.3" // Docker
+    implementation "org.flywaydb:flyway-core:6.5.3" // 프로젝트 단위로, 테이블 및 칼럼을 관리하기 위함(For MSA 구조) = db.migration
+
+    // DB : JPA(Java Persistence API)
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+
+    // View : Template Engine
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // Logging
     implementation group: 'org.slf4j', name: 'slf4j-api'
     implementation group: 'ch.qos.logback', name: 'logback-core'
     implementation group: 'ch.qos.logback', name: 'logback-classic'
+    implementation group: 'org.codehaus.janino', name: 'janino', version: '2.5.16'
+
+    // Dev
     compileOnly 'org.projectlombok:lombok'
-    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    // Test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

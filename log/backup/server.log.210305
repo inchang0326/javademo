@@ -1,0 +1,959 @@
+[][16:15:46.016:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 8924 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:15:46.037:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][16:15:46.469:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:15:46.470:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:15:58.914:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][16:15:58.965:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:15:58.967:INFO :StandardService] Starting service [Tomcat]
+[][16:15:58.968:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:15:59.342:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][16:15:59.342:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 12869 ms
+[][16:16:00.757:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:16:01.794:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][16:16:01.831:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][16:16:01.874:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][16:16:01.897:INFO :JavademoApplication] Started JavademoApplication in 18.808 seconds (JVM running for 30.267)
+[][16:20:52.262:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 27308 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:20:52.269:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][16:20:52.467:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:20:52.470:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:20:56.382:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][16:20:56.401:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:20:56.403:INFO :StandardService] Starting service [Tomcat]
+[][16:20:56.404:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:20:56.865:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][16:20:56.867:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4389 ms
+[][16:20:57.395:INFO :EmbeddedPostgres] Detected a Windows x86_64 system
+[][16:20:57.579:INFO :EmbeddedPostgres] Extracting Postgres...
+[][16:21:25.393:INFO :EmbeddedPostgres] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:21:28.286:INFO :exe] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:21:28.287:INFO :exe] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:21:28.287:INFO :exe] 
+[][16:21:28.302:INFO :exe] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:21:28.304:INFO :exe] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:21:28.305:INFO :exe] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:21:28.305:INFO :exe] 
+[][16:21:28.306:INFO :exe] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:21:28.306:INFO :exe] 
+[][16:21:28.309:INFO :exe] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg2441088042097170930 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:21:28.636:INFO :exe] ���� ���͸� ����� �� ...�Ϸ�
+[][16:21:29.413:INFO :exe] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:21:29.593:INFO :exe] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:21:29.595:INFO :exe] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:21:29.688:INFO :exe] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:21:35.560:INFO :exe] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:21:49.790:INFO :exe] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:21:53.383:INFO :exe] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:21:53.384:INFO :exe] 
+[][16:21:53.385:INFO :exe] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:21:53.385:INFO :exe] 
+[][16:21:53.385:INFO :exe]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg2441088042097170930^" -l �α����� start
+[][16:21:53.385:INFO :exe] 
+[][16:21:53.443:INFO :EmbeddedPostgres] 3a6562f1-dcee-4729-9955-70d07207001f initdb completed in 00:00:28.038
+[][16:21:53.596:INFO :EmbeddedPostgres] 3a6562f1-dcee-4729-9955-70d07207001f postmaster started as java.lang.ProcessImpl@1ec08ca0 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:21:54.503:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:21:54.503 KST [30064] �α�:  IPv6, �ּ�: "::1", ��Ʈ 5432 ������ ������ ����մϴ�
+[][16:21:54.504:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] 2021-03-05 16:21:54.504 KST [30064] �α�:  IPv4, �ּ�: "127.0.0.1", ��Ʈ 5432 ������ ������ ����մϴ�
+[][16:21:55.163:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] 2021-03-05 16:21:55.163 KST [30404] �α�:  �����ͺ��̽� �ý��� ������ ���� ���� �ð�: 2021-03-05 16:21:49 KST
+[][16:21:55.634:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] .2021-03-05 16:21:55.634 KST [30064] �α�:  ���� �����ͺ��̽� ������ ������ �� �ֽ��ϴ�
+[][16:21:55.809:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f]  �Ϸ�
+[][16:21:55.814:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] ���� ���۵�
+[][16:21:57.021:INFO :pg-3a6562f1-dcee-4729-9955-70d07207001f] 2021-03-05 16:21:57.021 KST [30424] �α�:  ���� �Ϸ���� ���� ���� ��Ŷ
+[][16:21:57.736:INFO :EmbeddedPostgres] 3a6562f1-dcee-4729-9955-70d07207001f postmaster startup finished in 00:00:04.208
+[][16:21:59.922:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:22:01.916:WARN :AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsatisfied dependency expressed through method 'flyway' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+[][16:22:01.918:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[][16:22:01.936:INFO :StandardService] Stopping service [Tomcat]
+[][16:22:01.986:INFO :ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[][16:22:02.231:ERROR:SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsatisfied dependency expressed through method 'flyway' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 37 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.<clinit>(EmbeddedDatabaseConnection.java:55)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.<init>(DataSourceProperties.java:154)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 46 common frames omitted
+[][16:22:03.032:INFO :exe] ������ ���߱� ���� ��ٸ��� ��.... �Ϸ�
+[][16:22:03.041:INFO :EmbeddedPostgres] 3a6562f1-dcee-4729-9955-70d07207001f shut down postmaster in 00:00:00.476
+[][16:24:38.643:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 30648 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:24:38.653:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][16:24:38.808:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:24:38.808:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:24:40.458:INFO :RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][16:24:40.537:INFO :RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 41 ms. Found 0 JPA repository interfaces.
+[][16:24:43.302:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][16:24:43.327:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:24:43.328:INFO :StandardService] Starting service [Tomcat]
+[][16:24:43.329:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:24:43.753:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][16:24:43.753:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4942 ms
+[][16:24:44.098:INFO :EmbeddedPostgres] Detected a Windows x86_64 system
+[][16:24:44.368:INFO :EmbeddedPostgres] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:24:44.614:INFO :exe] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:24:44.615:INFO :exe] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:24:44.615:INFO :exe] 
+[][16:24:44.634:INFO :exe] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:24:44.635:INFO :exe] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:24:44.636:INFO :exe] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:24:44.636:INFO :exe] 
+[][16:24:44.637:INFO :exe] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:24:44.637:INFO :exe] 
+[][16:24:44.645:INFO :exe] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg4979062457921818902 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:24:44.712:INFO :exe] ���� ���͸� ����� �� ...�Ϸ�
+[][16:24:44.806:INFO :exe] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:24:45.006:INFO :exe] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:24:45.006:INFO :exe] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:24:45.108:INFO :exe] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:24:47.626:INFO :exe] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:24:52.115:INFO :exe] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:24:54.088:INFO :exe] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:24:54.089:INFO :exe] 
+[][16:24:54.090:INFO :exe] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:24:54.090:INFO :exe] 
+[][16:24:54.090:INFO :exe]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg4979062457921818902^" -l �α����� start
+[][16:24:54.090:INFO :exe] 
+[][16:24:54.118:INFO :EmbeddedPostgres] 4d31c1ca-a6cb-4f62-9e64-c156b840cb4d initdb completed in 00:00:09.736
+[][16:24:54.144:INFO :EmbeddedPostgres] 4d31c1ca-a6cb-4f62-9e64-c156b840cb4d postmaster started as java.lang.ProcessImpl@7199fa50 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:24:54.750:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:24:54.750 KST [31632] �α�:  IPv6, �ּ�: "::1", ��Ʈ 5432 ������ ������ ����մϴ�
+[][16:24:54.774:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:54.774 KST [31632] �α�:  IPv4, �ּ�: "127.0.0.1", ��Ʈ 5432 ������ ������ ����մϴ�
+[][16:24:55.276:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:55.277 KST [31708] ġ��������:  �����ͺ��̽� �ý����� ���� ���� ���Դϴ�.
+[][16:24:55.330:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:55.330 KST [31688] �α�:  �����ͺ��̽� �ý��� ������ ���� ���� �ð�: 2021-03-05 16:24:52 KST
+[][16:24:55.388:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:55.388 KST [31700] �α�:  ���� �Ϸ���� ���� ���� ��Ŷ
+[][16:24:55.558:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:55.558 KST [31632] �α�:  ���� �����ͺ��̽� ������ ������ �� �ֽ��ϴ�
+[][16:24:55.636:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d]  �Ϸ�
+[][16:24:55.637:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] ���� ���۵�
+[][16:24:55.925:INFO :pg-4d31c1ca-a6cb-4f62-9e64-c156b840cb4d] 2021-03-05 16:24:55.925 KST [30800] �α�:  ���� �Ϸ���� ���� ���� ��Ŷ
+[][16:24:56.735:INFO :EmbeddedPostgres] 4d31c1ca-a6cb-4f62-9e64-c156b840cb4d postmaster startup finished in 00:00:02.598
+[][16:24:57.083:INFO :VersionPrinter] Flyway Community Edition 6.5.3 by Redgate
+[][16:24:57.331:INFO :DatabaseFactory] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][16:24:57.418:INFO :DbValidate] Successfully validated 0 migrations (execution time 00:00.023s)
+[][16:24:57.418:WARN :DbValidate] No migrations found. Are your locations set up correctly?
+[][16:24:57.451:INFO :JdbcTableSchemaHistory] Creating Schema History table "public"."flyway_schema_history" ...
+[][16:24:57.545:INFO :DbMigrate] Current version of schema "public": << Empty Schema >>
+[][16:24:57.547:INFO :DbMigrate] Schema "public" is up to date. No migration necessary.
+[][16:24:57.763:INFO :LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][16:24:57.887:INFO :Version] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][16:24:58.203:INFO :Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][16:24:58.625:WARN :HikariConfig] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][16:24:58.626:INFO :HikariDataSource] HikariPool-1 - Starting...
+[][16:24:58.805:INFO :HikariDataSource] HikariPool-1 - Start completed.
+[][16:24:58.830:INFO :Dialect] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][16:24:59.344:INFO :JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][16:24:59.378:INFO :LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][16:24:59.764:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][16:25:00.430:WARN :JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][16:25:01.249:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:25:02.302:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][16:25:02.347:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][16:25:02.366:INFO :JavademoApplication] Started JavademoApplication in 24.89 seconds (JVM running for 29.082)
+[][16:36:02.303:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 35248 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:36:02.309:INFO :JavademoApplication:664] The following profiles are active: local
+[][16:36:02.469:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:36:02.470:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:36:04.208:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][16:36:04.252:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+[][16:36:07.079:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][16:36:07.105:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:36:07.106:INFO :StandardService:173] Starting service [Tomcat]
+[][16:36:07.107:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:36:07.526:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][16:36:07.527:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 5054 ms
+[][16:36:07.850:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][16:36:08.092:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:36:08.435:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:36:08.435:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:36:08.436:INFO :exe:159] 
+[][16:36:08.442:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:36:08.443:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:36:08.443:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:36:08.444:INFO :exe:159] 
+[][16:36:08.444:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:36:08.444:INFO :exe:159] 
+[][16:36:08.445:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg9004027984626987500 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:36:08.458:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][16:36:08.531:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:36:08.621:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:36:08.621:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:36:08.667:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:36:10.812:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:36:14.957:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:36:16.690:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:36:16.696:INFO :exe:159] 
+[][16:36:16.696:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:36:16.698:INFO :exe:159] 
+[][16:36:16.698:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg9004027984626987500^" -l �α����� start
+[][16:36:16.698:INFO :exe:159] 
+[][16:36:16.725:INFO :EmbeddedPostgres:222] 27ff6cec-aa0b-4ebc-b990-6ff642b89c6d initdb completed in 00:00:08.624
+[][16:36:16.750:INFO :EmbeddedPostgres:253] 27ff6cec-aa0b-4ebc-b990-6ff642b89c6d postmaster started as java.lang.ProcessImpl@674fa9f9 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:36:17.183:INFO :EmbeddedPostgres:294] 27ff6cec-aa0b-4ebc-b990-6ff642b89c6d postmaster startup finished in 00:00:00.441
+[][16:36:17.301:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:36:17.300 KST [35052] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:36:17.301:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 
+[][16:36:17.301:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 	
+[][16:36:17.302:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.300 KST [35052] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:36:17.302:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.301 KST [35052] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:36:17.302:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 
+[][16:36:17.303:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 	
+[][16:36:17.303:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.301 KST [35052] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:36:17.303:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.301 KST [35052] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][16:36:17.304:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.301 KST [35052] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][16:36:17.304:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159] 2021-03-05 16:36:17.302 KST [35052] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][16:36:17.340:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][16:36:17.517:INFO :pg-27ff6cec-aa0b-4ebc-b990-6ff642b89c6d:159]  ���� ��ٸ��� ��
+[][16:36:17.698:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][16:36:17.765:INFO :DbValidate:49] Successfully validated 0 migrations (execution time 00:00.030s)
+[][16:36:17.765:WARN :DbValidate:53] No migrations found. Are your locations set up correctly?
+[][16:36:17.775:INFO :DbMigrate:49] Current version of schema "public": << Empty Schema >>
+[][16:36:17.778:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][16:36:17.988:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][16:36:18.233:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][16:36:18.634:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][16:36:19.043:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][16:36:19.044:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][16:36:19.243:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][16:36:19.277:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][16:36:19.805:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][16:36:19.838:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][16:36:20.036:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][16:36:20.452:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][16:36:21.178:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:36:21.993:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][16:36:22.050:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][16:36:22.087:INFO :JavademoApplication:61] Started JavademoApplication in 20.541 seconds (JVM running for 24.261)
+[][16:40:59.903:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 35008 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:40:59.937:INFO :JavademoApplication:664] The following profiles are active: local
+[][16:41:00.176:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:41:00.177:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:41:01.827:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][16:41:01.857:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[][16:41:05.415:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][16:41:05.433:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:41:05.433:INFO :StandardService:173] Starting service [Tomcat]
+[][16:41:05.434:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:41:05.969:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][16:41:05.970:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 5790 ms
+[][16:41:06.344:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][16:41:06.538:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:41:06.854:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:41:06.855:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:41:06.855:INFO :exe:159] 
+[][16:41:06.865:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:41:06.866:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:41:06.866:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:41:06.866:INFO :exe:159] 
+[][16:41:06.866:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:41:06.867:INFO :exe:159] 
+[][16:41:06.868:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg6764219361593666630 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:41:06.896:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][16:41:07.004:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:41:07.178:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:41:07.179:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:41:07.224:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:41:09.290:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:41:18.007:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:41:20.718:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:41:20.719:INFO :exe:159] 
+[][16:41:20.719:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:41:20.719:INFO :exe:159] 
+[][16:41:20.720:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg6764219361593666630^" -l �α����� start
+[][16:41:20.720:INFO :exe:159] 
+[][16:41:20.742:INFO :EmbeddedPostgres:222] 65f84b77-1c13-4602-a728-ae28ef437a63 initdb completed in 00:00:14.195
+[][16:41:20.788:INFO :EmbeddedPostgres:253] 65f84b77-1c13-4602-a728-ae28ef437a63 postmaster started as java.lang.ProcessImpl@478a4b5a on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:41:21.350:INFO :EmbeddedPostgres:294] 65f84b77-1c13-4602-a728-ae28ef437a63 postmaster startup finished in 00:00:00.584
+[][16:41:21.635:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][16:41:21.829:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:41:21.829 KST [37628] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:41:21.829:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 
+[][16:41:21.830:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 	
+[][16:41:21.830:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.829 KST [37628] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:41:21.831:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.829 KST [37628] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:41:21.831:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 
+[][16:41:21.831:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 	
+[][16:41:21.831:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.829 KST [37628] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:41:21.832:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.830 KST [37628] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][16:41:21.832:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.830 KST [37628] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][16:41:21.833:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159] 2021-03-05 16:41:21.834 KST [37628] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][16:41:21.926:INFO :pg-65f84b77-1c13-4602-a728-ae28ef437a63:159]  ���� ��ٸ��� ��
+[][16:41:22.225:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][16:41:22.302:WARN :AnnotationConfigServletWebServerApplicationContext:590] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.reflect.InvocationTargetException
+[][16:41:22.307:INFO :StandardService:173] Stopping service [Tomcat]
+[][16:41:22.338:INFO :ConditionEvaluationReportLoggingListener:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[][16:41:22.436:ERROR:SpringApplication:856] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.reflect.InvocationTargetException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1153)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:70)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 24 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Found more than one migration with version 1
+Offenders:
+-> C:\Users\Me\IdeaProjects\javademo\build\resources\main\db\migration\V1__init.sql (SQL)
+-> C:\Users\Me\IdeaProjects\javademo\build\resources\main\db\migration\V2__insertTmp.sql (SQL)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.checkForIncompatibilities(CompositeMigrationResolver.java:147)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.doFindAvailableMigrations(CompositeMigrationResolver.java:112)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:95)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:46)
+	at org.flywaydb.core.internal.info.MigrationInfoServiceImpl.refresh(MigrationInfoServiceImpl.java:130)
+	at org.flywaydb.core.internal.command.DbValidate$2.call(DbValidate.java:142)
+	at org.flywaydb.core.internal.command.DbValidate$2.call(DbValidate.java:130)
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:66)
+	at org.flywaydb.core.internal.command.DbValidate.validate(DbValidate.java:130)
+	at org.flywaydb.core.Flyway.doValidate(Flyway.java:286)
+	at org.flywaydb.core.Flyway.access$100(Flyway.java:73)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:166)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:158)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:527)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:158)
+	... 31 common frames omitted
+[][16:41:22.597:INFO :exe:159] pg_ctl: "C:/Users/Me/AppData/Local/Temp/epg6764219361593666630/postmaster.pid" PID ������ �����ϴ�
+[][16:41:22.614:ERROR:EmbeddedPostgres:363] Could not stop postmaster 65f84b77-1c13-4602-a728-ae28ef437a63
+java.lang.IllegalStateException: Process [C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6\bin\pg_ctl.exe, -D, C:\Users\Me\AppData\Local\Temp\epg6764219361593666630, stop, -m, fast, -t, 5, -w] failed
+
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.system(EmbeddedPostgres.java:602)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.pgCtl(EmbeddedPostgres.java:386)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.close(EmbeddedPostgres.java:360)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres$1.run(EmbeddedPostgres.java:342)
+	at java.lang.Thread.run(Thread.java:748)
+[][16:42:38.362:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 17428 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:42:38.368:INFO :JavademoApplication:664] The following profiles are active: local
+[][16:42:38.593:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:42:38.593:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:42:40.319:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][16:42:40.356:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+[][16:42:43.080:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][16:42:43.096:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:42:43.097:INFO :StandardService:173] Starting service [Tomcat]
+[][16:42:43.098:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:42:43.487:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][16:42:43.488:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 4891 ms
+[][16:42:43.817:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][16:42:43.956:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:42:44.181:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:42:44.181:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:42:44.181:INFO :exe:159] 
+[][16:42:44.187:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:42:44.188:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:42:44.189:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:42:44.189:INFO :exe:159] 
+[][16:42:44.189:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:42:44.190:INFO :exe:159] 
+[][16:42:44.191:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg8924168332477840304 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:42:44.207:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][16:42:44.319:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:42:44.487:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:42:44.490:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:42:44.535:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:42:46.546:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:42:50.662:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:42:52.480:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:42:52.481:INFO :exe:159] 
+[][16:42:52.481:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:42:52.481:INFO :exe:159] 
+[][16:42:52.482:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg8924168332477840304^" -l �α����� start
+[][16:42:52.482:INFO :exe:159] 
+[][16:42:52.504:INFO :EmbeddedPostgres:222] b1c9c692-f42e-498c-87a7-f243949e0b09 initdb completed in 00:00:08.540
+[][16:42:52.535:INFO :EmbeddedPostgres:253] b1c9c692-f42e-498c-87a7-f243949e0b09 postmaster started as java.lang.ProcessImpl@54b476dd on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:42:52.990:INFO :EmbeddedPostgres:294] b1c9c692-f42e-498c-87a7-f243949e0b09 postmaster startup finished in 00:00:00.462
+[][16:42:53.168:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][16:42:53.415:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:42:53.415 KST [30820] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:42:53.415:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 
+[][16:42:53.416:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 	
+[][16:42:53.416:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.415 KST [30820] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:42:53.416:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.415 KST [30820] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:42:53.417:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 
+[][16:42:53.417:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 	
+[][16:42:53.417:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.415 KST [30820] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:42:53.417:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.416 KST [30820] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][16:42:53.417:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.416 KST [30820] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][16:42:53.421:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159] 2021-03-05 16:42:53.422 KST [30820] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][16:42:53.459:INFO :pg-b1c9c692-f42e-498c-87a7-f243949e0b09:159]  ���� ��ٸ��� ��
+[][16:42:53.578:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][16:42:53.681:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.069s)
+[][16:42:53.699:INFO :DbMigrate:49] Current version of schema "public": << Empty Schema >>
+[][16:42:53.730:INFO :DbMigrate:49] Migrating schema "public" to version 1 - init
+[][16:42:53.758:INFO :DefaultSqlScriptExecutor:49] DB: "tmp" 테이블 없음, 무시함
+[][16:42:53.813:INFO :DbMigrate:49] Migrating schema "public" to version 2 - insertTmp
+[][16:42:53.827:INFO :DbMigrate:49] Successfully applied 2 migrations to schema "public" (execution time 00:00.140s)
+[][16:42:54.129:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][16:42:54.303:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][16:42:54.818:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][16:42:55.325:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][16:42:55.326:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][16:42:55.539:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][16:42:55.575:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][16:42:56.233:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][16:42:56.274:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][16:42:56.518:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][16:42:57.011:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][16:42:57.734:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:42:58.619:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][16:42:58.658:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][16:42:58.680:INFO :JavademoApplication:61] Started JavademoApplication in 21.337 seconds (JVM running for 25.641)
+[][16:57:55.737:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 33716 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][16:57:55.765:INFO :JavademoApplication:664] The following profiles are active: local
+[][16:57:55.992:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][16:57:55.993:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][16:57:58.993:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][16:57:59.040:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+[][16:58:03.104:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][16:58:03.124:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][16:58:03.126:INFO :StandardService:173] Starting service [Tomcat]
+[][16:58:03.126:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][16:58:03.650:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][16:58:03.650:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 7654 ms
+[][16:58:04.026:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][16:58:04.353:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][16:58:04.620:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][16:58:04.621:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][16:58:04.622:INFO :exe:159] 
+[][16:58:04.633:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][16:58:04.634:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][16:58:04.634:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][16:58:04.635:INFO :exe:159] 
+[][16:58:04.635:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][16:58:04.635:INFO :exe:159] 
+[][16:58:04.638:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg1314888633239806301 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][16:58:04.679:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][16:58:04.887:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][16:58:04.997:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][16:58:04.998:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][16:58:05.037:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][16:58:08.037:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][16:58:14.511:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][16:58:16.365:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][16:58:16.368:INFO :exe:159] 
+[][16:58:16.369:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][16:58:16.369:INFO :exe:159] 
+[][16:58:16.370:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg1314888633239806301^" -l �α����� start
+[][16:58:16.371:INFO :exe:159] 
+[][16:58:16.397:INFO :EmbeddedPostgres:222] a7fc46ff-7229-4cf1-be92-757e80b59d6a initdb completed in 00:00:12.028
+[][16:58:16.487:INFO :EmbeddedPostgres:253] a7fc46ff-7229-4cf1-be92-757e80b59d6a postmaster started as java.lang.ProcessImpl@72b64438 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][16:58:17.404:INFO :EmbeddedPostgres:294] a7fc46ff-7229-4cf1-be92-757e80b59d6a postmaster startup finished in 00:00:00.976
+[][16:58:17.786:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][16:58:18.526:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][16:58:18.576:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 16:58:18.576 KST [43744] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:58:18.576:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 
+[][16:58:18.577:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 	
+[][16:58:18.577:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.576 KST [43744] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:58:18.577:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.578 KST [43744] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][16:58:18.578:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 
+[][16:58:18.578:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 	
+[][16:58:18.578:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.578 KST [43744] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][16:58:18.578:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.578 KST [43744] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][16:58:18.579:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.578 KST [43744] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][16:58:18.579:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159] 2021-03-05 16:58:18.579 KST [43744] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][16:58:18.629:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.058s)
+[][16:58:18.640:INFO :DbMigrate:49] Current version of schema "public": 2
+[][16:58:18.642:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][16:58:18.740:INFO :pg-a7fc46ff-7229-4cf1-be92-757e80b59d6a:159]  ���� ��ٸ��� ��
+[][16:58:19.641:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][16:58:20.946:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][16:58:22.042:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][16:58:23.891:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][16:58:23.892:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][16:58:24.165:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][16:58:24.214:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][16:58:26.748:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][16:58:26.786:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][16:58:27.137:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][16:58:27.657:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][16:58:28.718:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][16:58:30.103:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][16:58:30.149:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][16:58:30.171:INFO :JavademoApplication:61] Started JavademoApplication in 35.735 seconds (JVM running for 41.641)
+[][17:11:27.220:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 37324 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:11:27.229:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:11:27.543:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:11:27.544:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:11:29.122:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:11:29.233:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+[][17:11:32.222:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:11:32.253:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:11:32.254:INFO :StandardService:173] Starting service [Tomcat]
+[][17:11:32.255:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:11:32.682:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:11:32.683:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 5137 ms
+[][17:11:32.991:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:11:33.209:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:11:33.439:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:11:33.439:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:11:33.440:INFO :exe:159] 
+[][17:11:33.453:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:11:33.454:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:11:33.454:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:11:33.454:INFO :exe:159] 
+[][17:11:33.455:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:11:33.455:INFO :exe:159] 
+[][17:11:33.455:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg1366648470363598227 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:11:33.472:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:11:33.815:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:11:33.918:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:11:33.919:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:11:33.961:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:11:35.992:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:11:41.405:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:11:43.586:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][17:11:43.588:INFO :exe:159] 
+[][17:11:43.588:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][17:11:43.589:INFO :exe:159] 
+[][17:11:43.589:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg1366648470363598227^" -l �α����� start
+[][17:11:43.589:INFO :exe:159] 
+[][17:11:43.610:INFO :EmbeddedPostgres:222] f6663475-8f93-4db9-8f90-d83699bc3994 initdb completed in 00:00:10.389
+[][17:11:43.636:INFO :EmbeddedPostgres:253] f6663475-8f93-4db9-8f90-d83699bc3994 postmaster started as java.lang.ProcessImpl@4df38a79 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][17:11:44.463:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 17:11:44.439 KST [42388] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:11:44.468:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 
+[][17:11:44.472:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 	
+[][17:11:44.475:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.439 KST [42388] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:11:44.475:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.439 KST [42388] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:11:44.475:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 
+[][17:11:44.476:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 	
+[][17:11:44.477:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.439 KST [42388] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:11:44.478:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.472 KST [42388] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][17:11:44.479:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.472 KST [42388] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][17:11:44.486:INFO :EmbeddedPostgres:294] f6663475-8f93-4db9-8f90-d83699bc3994 postmaster startup finished in 00:00:00.857
+[][17:11:44.487:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] 2021-03-05 17:11:44.488 KST [42388] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][17:11:44.598:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159]  ���� ��ٸ��� ��
+[][17:11:44.599:INFO :pg-f6663475-8f93-4db9-8f90-d83699bc3994:159] pg_ctl: ������ ���� �� �� ����
+[][17:11:44.703:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][17:11:45.032:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][17:11:45.141:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.060s)
+[][17:11:45.154:INFO :DbMigrate:49] Current version of schema "public": 2
+[][17:11:45.155:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][17:11:45.444:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][17:11:45.609:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][17:11:46.120:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][17:11:46.892:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][17:11:46.893:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][17:11:47.247:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][17:11:47.287:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][17:11:52.614:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][17:11:52.719:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][17:11:53.379:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][17:11:55.644:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][17:11:57.305:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:11:59.031:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][17:11:59.095:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:11:59.127:INFO :JavademoApplication:61] Started JavademoApplication in 32.85 seconds (JVM running for 36.386)
+[][17:11:59.316:INFO :[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:11:59.317:INFO :DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[][17:11:59.320:INFO :DispatcherServlet:547] Completed initialization in 2 ms
+[][17:14:25.640:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 43896 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:14:25.650:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:14:25.845:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:14:25.851:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:14:27.796:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:14:27.970:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+[][17:14:32.100:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:14:32.143:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:14:32.145:INFO :StandardService:173] Starting service [Tomcat]
+[][17:14:32.147:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:14:32.767:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:14:32.768:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 6911 ms
+[][17:14:33.261:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:14:33.470:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:14:34.081:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:14:34.082:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:14:34.082:INFO :exe:159] 
+[][17:14:34.096:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:14:34.097:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:14:34.099:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:14:34.099:INFO :exe:159] 
+[][17:14:34.100:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:14:34.101:INFO :exe:159] 
+[][17:14:34.105:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg9048044635666363416 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:14:34.133:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:14:34.583:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:14:34.925:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:14:34.926:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:14:34.982:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:14:37.751:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:14:46.626:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:15:06.821:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 50960 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:15:06.829:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:15:07.001:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:15:07.001:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:15:09.126:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:15:09.285:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interfaces.
+[][17:15:13.048:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:15:13.072:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:15:13.074:INFO :StandardService:173] Starting service [Tomcat]
+[][17:15:13.074:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:15:13.827:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:15:13.828:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 6824 ms
+[][17:15:14.217:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:15:14.455:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:15:14.760:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:15:14.761:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:15:14.761:INFO :exe:159] 
+[][17:15:14.772:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:15:14.773:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:15:14.773:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:15:14.773:INFO :exe:159] 
+[][17:15:14.773:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:15:14.774:INFO :exe:159] 
+[][17:15:14.774:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg8610169676923043183 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:15:14.797:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:15:15.062:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:15:15.175:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:15:15.175:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:15:15.216:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:15:17.375:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:15:22.961:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:15:25.327:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][17:15:25.327:INFO :exe:159] 
+[][17:15:25.328:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][17:15:25.328:INFO :exe:159] 
+[][17:15:25.328:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg8610169676923043183^" -l �α����� start
+[][17:15:25.328:INFO :exe:159] 
+[][17:15:25.345:INFO :EmbeddedPostgres:222] befc4147-0aca-4cb0-bd12-72c3e3d7cd71 initdb completed in 00:00:10.879
+[][17:15:25.372:INFO :EmbeddedPostgres:253] befc4147-0aca-4cb0-bd12-72c3e3d7cd71 postmaster started as java.lang.ProcessImpl@25163e75 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][17:15:25.864:INFO :EmbeddedPostgres:294] befc4147-0aca-4cb0-bd12-72c3e3d7cd71 postmaster startup finished in 00:00:00.503
+[][17:15:26.409:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][17:15:26.500:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 17:15:26.500 KST [49552] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:15:26.500:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 
+[][17:15:26.501:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 	
+[][17:15:26.501:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.500 KST [49552] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:15:26.502:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.500 KST [49552] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:15:26.502:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 
+[][17:15:26.502:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 	
+[][17:15:26.503:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.500 KST [49552] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:15:26.503:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.500 KST [49552] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][17:15:26.503:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.500 KST [49552] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][17:15:26.503:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] 2021-03-05 17:15:26.501 KST [49552] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][17:15:26.726:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159]  ���� ��ٸ��� ��
+[][17:15:26.729:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] pg_ctl: ������ ���� �� �� ����
+[][17:15:26.730:INFO :pg-befc4147-0aca-4cb0-bd12-72c3e3d7cd71:159] �α� ����� ���캸�ʽÿ�.
+[][17:15:26.852:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][17:15:26.982:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.079s)
+[][17:15:27.000:INFO :DbMigrate:49] Current version of schema "public": 2
+[][17:15:27.003:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][17:15:27.285:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][17:15:27.469:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][17:15:27.886:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][17:15:28.316:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][17:15:28.317:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][17:15:28.597:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][17:15:28.629:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][17:15:31.304:WARN :SqlExceptionHelper:230] SQL Warning Code: 0, SQLState: 00000
+[][17:15:31.304:WARN :SqlExceptionHelper:231] "com_user_mst" 테이블 없음, 무시함
+[][17:15:31.333:WARN :SqlExceptionHelper:230] SQL Warning Code: 0, SQLState: 00000
+[][17:15:31.334:WARN :SqlExceptionHelper:231] "hibernate_sequence" 시퀀스 없음, 무시함
+[][17:15:31.423:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][17:15:31.452:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][17:15:31.750:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][17:15:33.973:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][17:15:35.144:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:15:37.011:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][17:15:37.114:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:15:37.149:INFO :JavademoApplication:61] Started JavademoApplication in 32.642 seconds (JVM running for 38.937)
+[][17:16:27.165:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 50528 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:16:27.175:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:16:27.385:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:16:27.385:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:16:29.248:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:16:29.382:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces.
+[][17:16:32.487:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:16:32.511:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:16:32.513:INFO :StandardService:173] Starting service [Tomcat]
+[][17:16:32.514:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:16:33.115:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:16:33.116:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 5725 ms
+[][17:16:33.584:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:16:33.827:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:16:34.171:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:16:34.172:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:16:34.173:INFO :exe:159] 
+[][17:16:34.192:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:16:34.192:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:16:34.193:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:16:34.193:INFO :exe:159] 
+[][17:16:34.193:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:16:34.194:INFO :exe:159] 
+[][17:16:34.195:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg1801115236781524765 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:16:34.218:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:16:34.322:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:16:34.503:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:16:34.504:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:16:34.555:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:16:37.035:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:16:41.781:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:16:46.678:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][17:16:46.679:INFO :exe:159] 
+[][17:16:46.679:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][17:16:46.679:INFO :exe:159] 
+[][17:16:46.680:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg1801115236781524765^" -l �α����� start
+[][17:16:46.680:INFO :exe:159] 
+[][17:16:47.002:INFO :EmbeddedPostgres:222] 8cbc5150-1091-4368-b5c9-e8622a0c56aa initdb completed in 00:00:13.162
+[][17:16:47.132:INFO :EmbeddedPostgres:253] 8cbc5150-1091-4368-b5c9-e8622a0c56aa postmaster started as java.lang.ProcessImpl@6d2fec09 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][17:16:48.536:INFO :EmbeddedPostgres:294] 8cbc5150-1091-4368-b5c9-e8622a0c56aa postmaster startup finished in 00:00:01.511
+[][17:16:48.760:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][17:16:48.997:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 17:16:48.997 KST [51636] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:16:48.997:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 
+[][17:16:48.997:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 	
+[][17:16:48.998:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:48.997 KST [51636] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:16:48.998:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:48.998 KST [51636] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:16:48.999:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 
+[][17:16:48.999:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 	
+[][17:16:48.999:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:48.998 KST [51636] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:16:48.999:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:48.999 KST [51636] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][17:16:49.000:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:48.999 KST [51636] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][17:16:49.024:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159] 2021-03-05 17:16:49.024 KST [51636] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][17:16:49.350:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][17:16:49.460:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.065s)
+[][17:16:49.473:INFO :DbMigrate:49] Current version of schema "public": 2
+[][17:16:49.475:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][17:16:49.542:INFO :pg-8cbc5150-1091-4368-b5c9-e8622a0c56aa:159]  ���� ��ٸ��� ��
+[][17:16:50.063:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][17:16:50.446:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][17:16:51.377:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][17:16:52.070:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][17:16:52.072:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][17:16:52.451:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][17:16:52.483:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][17:16:55.478:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][17:16:55.570:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][17:16:56.065:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][17:16:57.590:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][17:16:58.315:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:16:59.440:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][17:16:59.481:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:16:59.500:INFO :JavademoApplication:61] Started JavademoApplication in 33.587 seconds (JVM running for 37.957)
+[][17:23:21.144:INFO :[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:23:21.144:INFO :DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[][17:23:21.157:INFO :DispatcherServlet:547] Completed initialization in 12 ms
+[][17:23:51.352:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 49764 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:23:51.359:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:23:51.528:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:23:51.528:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:23:53.366:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:23:53.648:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 237 ms. Found 2 JPA repository interfaces.
+[][17:23:57.225:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:23:57.259:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:23:57.261:INFO :StandardService:173] Starting service [Tomcat]
+[][17:23:57.262:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:23:57.814:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:23:57.815:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 6284 ms
+[][17:23:58.177:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:23:58.469:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:23:58.754:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:23:58.755:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:23:58.756:INFO :exe:159] 
+[][17:23:58.772:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:23:58.773:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:23:58.773:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:23:58.773:INFO :exe:159] 
+[][17:23:58.774:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:23:58.774:INFO :exe:159] 
+[][17:23:58.777:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg2117468999383442187 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:23:58.793:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:23:58.908:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:23:59.055:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:23:59.056:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:23:59.106:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:24:02.143:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:24:07.429:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:24:10.206:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][17:24:10.208:INFO :exe:159] 
+[][17:24:10.208:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][17:24:10.209:INFO :exe:159] 
+[][17:24:10.209:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg2117468999383442187^" -l �α����� start
+[][17:24:10.209:INFO :exe:159] 
+[][17:24:10.236:INFO :EmbeddedPostgres:222] 441c56f3-b255-43cd-8139-cc99df930c0b initdb completed in 00:00:11.757
+[][17:24:10.262:INFO :EmbeddedPostgres:253] 441c56f3-b255-43cd-8139-cc99df930c0b postmaster started as java.lang.ProcessImpl@2c74a8b6 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][17:24:10.955:INFO :EmbeddedPostgres:294] 441c56f3-b255-43cd-8139-cc99df930c0b postmaster startup finished in 00:00:00.701
+[][17:24:11.152:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][17:24:11.343:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 17:24:11.343 KST [53540] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:24:11.343:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 
+[][17:24:11.344:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 	
+[][17:24:11.344:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.343 KST [53540] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:24:11.344:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.344 KST [53540] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:24:11.344:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 
+[][17:24:11.345:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 	
+[][17:24:11.345:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.344 KST [53540] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:24:11.345:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.344 KST [53540] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][17:24:11.345:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.344 KST [53540] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][17:24:11.346:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159] 2021-03-05 17:24:11.345 KST [53540] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][17:24:11.440:INFO :pg-441c56f3-b255-43cd-8139-cc99df930c0b:159]  ���� ��ٸ��� ��
+[][17:24:11.495:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][17:24:11.582:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.052s)
+[][17:24:11.595:INFO :DbMigrate:49] Current version of schema "public": 2
+[][17:24:11.597:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][17:24:12.162:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][17:24:12.377:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][17:24:13.073:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][17:24:13.702:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][17:24:13.703:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][17:24:13.956:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][17:24:14.005:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][17:24:17.021:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][17:24:17.058:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][17:24:17.320:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][17:24:18.733:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][17:24:19.315:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:24:20.757:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][17:24:20.808:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:24:20.828:INFO :JavademoApplication:61] Started JavademoApplication in 30.952 seconds (JVM running for 38.574)
+[][17:24:22.454:INFO :[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:24:22.456:INFO :DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[][17:24:22.459:INFO :DispatcherServlet:547] Completed initialization in 2 ms
+[][17:28:26.612:INFO :JavademoApplication:55] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 55360 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:28:26.618:INFO :JavademoApplication:664] The following profiles are active: local
+[][17:28:26.854:INFO :DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:28:26.855:INFO :DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:28:28.896:INFO :RepositoryConfigurationDelegate:128] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[][17:28:29.105:INFO :RepositoryConfigurationDelegate:188] Finished Spring Data repository scanning in 149 ms. Found 2 JPA repository interfaces.
+[][17:28:31.515:INFO :TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[][17:28:31.533:INFO :Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:28:31.534:INFO :StandardService:173] Starting service [Tomcat]
+[][17:28:31.535:INFO :StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:28:31.993:INFO :[/]:173] Initializing Spring embedded WebApplicationContext
+[][17:28:31.994:INFO :ServletWebServerApplicationContext:289] Root WebApplicationContext: initialization completed in 5134 ms
+[][17:28:32.344:INFO :EmbeddedPostgres:77] Detected a Windows x86_64 system
+[][17:28:32.482:INFO :EmbeddedPostgres:147] Postgres binaries at C:\Users\Me\AppData\Local\Temp\embedded-pg\PG-5f9ef1f42cb476990f9b309e807d5df6
+[][17:28:32.677:INFO :exe:159] �� �����ͺ��̽� �ý��ۿ��� ��������� ���ϵ��� �� �����ְ� "Me" id��
+[][17:28:32.677:INFO :exe:159] ������ ���Դϴ�. ���� �� ����ڴ� ���� ���μ����� �����ְ� �˴ϴ�.
+[][17:28:32.677:INFO :exe:159] 
+[][17:28:32.683:INFO :exe:159] �����ͺ��̽� Ŭ�����ʹ� "Korean_Korea.949" ���������� �ʱ�ȭ�� ���Դϴ�.
+[][17:28:32.685:INFO :exe:159] initdb: "Korean_Korea.949" �����Ͽ� �˸��� �����˻� ������ ã�� �� ����
+[][17:28:32.685:INFO :exe:159] �⺻ �ؽ�Ʈ �˻� ������ "simple"(��)�� �����˴ϴ�.
+[][17:28:32.685:INFO :exe:159] 
+[][17:28:32.686:INFO :exe:159] �ڷ� ������ üũ�� ��� ��� ���� ����
+[][17:28:32.686:INFO :exe:159] 
+[][17:28:32.690:INFO :exe:159] �̹� �ִ� C:/Users/Me/AppData/Local/Temp/epg5591361987303760330 ���͸��� �׼��� ������ ��ġ�� �� ...�Ϸ�
+[][17:28:32.712:INFO :exe:159] ���� ���͸� ����� �� ...�Ϸ�
+[][17:28:32.826:INFO :exe:159] max_connections �ʱⰪ�� �����ϴ� �� ...100
+[][17:28:32.919:INFO :exe:159] �⺻ shared_buffers�� �����ϴ� ��... 128MB
+[][17:28:32.919:INFO :exe:159] ����� ���� ���� �޸� ��������� �����ϴ� �� ... windows
+[][17:28:32.983:INFO :exe:159] ȯ�漳�� ������ ����� �� ...�Ϸ�
+[][17:28:34.701:INFO :exe:159] ��Ʈ��Ʈ�� ��ũ��Ʈ ���� �� ... �Ϸ�
+[][17:28:38.563:INFO :exe:159] ��Ʈ��Ʈ�� ���� �ʱ�ȭ �۾� �� ... �Ϸ�
+[][17:28:40.392:INFO :exe:159] �ڷḦ ��ũ�� ����ȭ �ϴ� �� ... �Ϸ�
+[][17:28:40.392:INFO :exe:159] 
+[][17:28:40.392:INFO :exe:159] �۾��Ϸ�. ���� ���� ����� �̿��ؼ� ������ ���� �� �� �ֽ��ϴ�:
+[][17:28:40.393:INFO :exe:159] 
+[][17:28:40.393:INFO :exe:159]     C:/Users/Me/AppData/Local/Temp/embedded-pg/PG-5f9ef1f42cb476990f9b309e807d5df6/bin/pg_ctl -D ^"C^:^\Users^\Me^\AppData^\Local^\Temp^\epg5591361987303760330^" -l �α����� start
+[][17:28:40.393:INFO :exe:159] 
+[][17:28:40.411:INFO :EmbeddedPostgres:222] 0063e98d-8e2c-4e2f-8344-f03ba9b1e88a initdb completed in 00:00:07.920
+[][17:28:40.441:INFO :EmbeddedPostgres:253] 0063e98d-8e2c-4e2f-8344-f03ba9b1e88a postmaster started as java.lang.ProcessImpl@58793281 on port 5432.  Waiting up to PT10S for server startup to finish.
+[][17:28:41.082:INFO :EmbeddedPostgres:294] 0063e98d-8e2c-4e2f-8344-f03ba9b1e88a postmaster startup finished in 00:00:00.648
+[][17:28:41.098:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] ������ �����ϱ� ���� ��ٸ��� ��....2021-03-05 17:28:41.099 KST [48140] �α�:  IPv6 ���ε� ����, ��� �ּ�: "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:28:41.099:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 
+[][17:28:41.099:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 	
+[][17:28:41.099:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.099 KST [48140] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:28:41.100:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.099 KST [48140] �α�:  IPv4 ���ε� ����, ��� �ּ�: "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[][17:28:41.100:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 
+[][17:28:41.100:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 	
+[][17:28:41.100:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.099 KST [48140] ��Ʈ:  �ٸ� postmaster �� ��Ʈ 5432����  �̹� �������ΰ� �����ϴ�? �׷��� �ʴٸ� �� �ʸ� ��ٷȴٰ� �ٽ� �õ��غ��ʽÿ�.
+[][17:28:41.101:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.099 KST [48140] ���:  "localhost" ���� ������ ���� �� �����ϴ�
+[][17:28:41.101:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.099 KST [48140] ġ��������:  TCP/IP ������ ���� �� �����ϴ�.
+[][17:28:41.101:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159] 2021-03-05 17:28:41.101 KST [48140] �α�:  �����ͺ��̽� �ý��� ���񽺸� �����߽��ϴ�
+[][17:28:41.180:INFO :pg-0063e98d-8e2c-4e2f-8344-f03ba9b1e88a:159]  ���� ��ٸ��� ��
+[][17:28:41.203:INFO :VersionPrinter:49] Flyway Community Edition 6.5.3 by Redgate
+[][17:28:41.428:INFO :DatabaseFactory:49] Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 10.6)
+[][17:28:41.506:INFO :DbValidate:49] Successfully validated 2 migrations (execution time 00:00.045s)
+[][17:28:41.514:INFO :DbMigrate:49] Current version of schema "public": 2
+[][17:28:41.515:INFO :DbMigrate:49] Schema "public" is up to date. No migration necessary.
+[][17:28:41.720:INFO :LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[][17:28:41.831:INFO :Version:44] HHH000412: Hibernate ORM core version 5.4.28.Final
+[][17:28:42.109:INFO :Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[][17:28:42.519:WARN :HikariConfig:1051] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[][17:28:42.520:INFO :HikariDataSource:110] HikariPool-1 - Starting...
+[][17:28:42.698:INFO :HikariDataSource:123] HikariPool-1 - Start completed.
+[][17:28:42.727:INFO :Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[][17:28:44.175:INFO :JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[][17:28:44.200:INFO :LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[][17:28:44.393:INFO :OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[][17:28:46.071:WARN :JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[][17:28:46.657:INFO :ThreadPoolTaskExecutor:181] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:28:47.501:INFO :Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[][17:28:47.532:INFO :TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:28:47.545:INFO :JavademoApplication:61] Started JavademoApplication in 21.737 seconds (JVM running for 27.347)
+[][17:29:01.444:INFO :[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:29:01.445:INFO :DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[][17:29:01.446:INFO :DispatcherServlet:547] Completed initialization in 1 ms
+[73b11880-ee21-4807-92ad-deb071ed9147][17:29:01.486:WARN :DefaultHandlerExceptionResolver:207] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]

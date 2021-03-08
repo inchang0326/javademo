@@ -1,0 +1,1082 @@
+[11:29:29.823:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 280940 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[11:29:29.839:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[11:29:30.198:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[11:29:30.198:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[11:29:33.869:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[11:29:33.885:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[11:29:33.885:INFO :StandardService] Starting service [Tomcat]
+[11:29:33.885:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[11:29:34.353:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[11:29:34.353:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4155 ms
+[11:29:35.369:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[11:29:36.290:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[11:29:36.322:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[11:29:36.368:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[11:29:36.384:INFO :JavademoApplication] Started JavademoApplication in 7.77 seconds (JVM running for 12.501)
+[11:33:39.118:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:33:39.118:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[11:33:39.196:INFO :DispatcherServlet] Completed initialization in 62 ms
+[11:33:40.133:INFO :OneControllgood job!er] test info logger
+[11:33:40.165:INFO :OneService$$EnhancerBySpringCGLIB$$b8f644c3] Service Start: OneService.one() with demoData.
+[11:33:40.180:DEBUG:OneService] good job!
+[11:35:14.627:INFO :OneController] test info logger
+[11:35:14.627:INFO :OneService$$EnhancerBySpringCGLIB$$b8f644c3] Service Start: OneService.one() with demoData.
+[11:35:14.627:DEBUG:OneService] good job!
+[11:48:39.497:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 291376 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[11:48:39.513:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[11:48:39.731:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[11:48:39.731:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[11:48:43.371:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[11:48:43.387:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[11:48:43.387:INFO :StandardService] Starting service [Tomcat]
+[11:48:43.387:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[11:48:43.606:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[11:48:43.606:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3843 ms
+[11:48:44.340:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[11:48:44.933:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[11:48:44.965:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[11:48:45.011:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[11:48:45.043:INFO :JavademoApplication] Started JavademoApplication in 6.49 seconds (JVM running for 9.786)
+[11:48:55.029:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:48:55.029:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[11:48:55.045:INFO :DispatcherServlet] Completed initialization in 16 ms
+[11:48:55.451:INFO :OneController] test info logger
+[11:48:55.466:INFO :OneService$$EnhancerBySpringCGLIB$$1a7dab66] Service Start: OneService.one() with demoData.
+[11:48:55.482:DEBUG:OneService] good job!
+[11:49:30.050:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 291636 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[11:49:30.066:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[11:49:30.253:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[11:49:30.253:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[11:49:35.018:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[11:49:35.049:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[11:49:35.065:INFO :StandardService] Starting service [Tomcat]
+[11:49:35.065:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[11:49:35.408:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[11:49:35.424:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5171 ms
+[11:49:36.721:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[11:49:38.267:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[11:49:38.298:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[11:49:38.345:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[11:49:38.408:INFO :JavademoApplication] Started JavademoApplication in 9.595 seconds (JVM running for 14.529)
+[11:49:43.438:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:49:43.438:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[11:49:43.438:INFO :DispatcherServlet] Completed initialization in 0 ms
+[11:49:43.797:INFO :OneController] test info logger
+[11:49:43.813:INFO :OneService$$EnhancerBySpringCGLIB$$7e725806] Service Start: OneService.one() with demoData.
+[11:49:43.828:DEBUG:OneService] good job!
+[11:50:07.817:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 296332 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[11:50:07.817:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[11:50:07.926:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[11:50:07.926:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[11:50:11.309:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[11:50:11.324:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[11:50:11.324:INFO :StandardService] Starting service [Tomcat]
+[11:50:11.324:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[11:50:11.637:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[11:50:11.637:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3711 ms
+[11:50:12.402:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[11:50:13.152:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[11:50:13.183:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[11:50:13.215:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[11:50:13.230:INFO :JavademoApplication] Started JavademoApplication in 6.681 seconds (JVM running for 11.052)
+[11:50:17.885:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:50:17.885:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[11:50:17.885:INFO :DispatcherServlet] Completed initialization in 0 ms
+[11:50:18.354:INFO :OneController] test info logger
+[11:50:18.354:INFO :OneService$$EnhancerBySpringCGLIB$$817895c9] Service Start: OneService.one() with demoData.
+[11:50:18.385:DEBUG:OneService] good job!
+[11:53:18.349:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 297604 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[11:53:18.349:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[11:53:18.459:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[11:53:18.459:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[11:53:20.958:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[11:53:20.974:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[11:53:20.974:INFO :StandardService] Starting service [Tomcat]
+[11:53:20.989:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[11:53:21.239:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[11:53:21.239:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2780 ms
+[11:53:22.755:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[11:53:23.426:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[11:53:23.442:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[11:53:23.489:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[11:53:23.504:INFO :JavademoApplication] Started JavademoApplication in 6.011 seconds (JVM running for 9.211)
+[11:53:31.143:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:53:31.143:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[11:53:31.143:INFO :DispatcherServlet] Completed initialization in 0 ms
+[11:53:31.315:INFO :OneController] test info logger
+[11:53:31.315:INFO :OneService$$EnhancerBySpringCGLIB$$a0101a58] Service Start: OneService.one() with demoData.
+[11:53:31.346:DEBUG:OneService] good job!
+[14:03:02.768:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 223592 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:03:02.785:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:03:02.979:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:03:02.979:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:03:05.949:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:03:05.964:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:03:05.964:INFO :StandardService] Starting service [Tomcat]
+[14:03:05.964:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:03:06.277:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:03:06.277:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3296 ms
+[14:03:07.042:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:03:07.573:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:03:07.589:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:03:07.636:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:03:07.652:INFO :JavademoApplication] Started JavademoApplication in 6.071 seconds (JVM running for 10.548)
+[14:14:13.756:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 227176 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:14:13.771:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:14:13.849:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:14:13.865:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:14:16.974:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:14:16.989:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:14:16.989:INFO :StandardService] Starting service [Tomcat]
+[14:14:16.989:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:14:17.224:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:14:17.224:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3359 ms
+[14:14:18.114:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:14:18.873:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:14:18.920:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:14:18.998:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:14:19.014:INFO :JavademoApplication] Started JavademoApplication in 5.95 seconds (JVM running for 8.783)
+[14:14:22.313:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:14:22.313:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:14:22.315:INFO :DispatcherServlet] Completed initialization in 1 ms
+[14:14:22.936:INFO :OneController] test info logger
+[14:14:22.936:DEBUG:OneService$$EnhancerBySpringCGLIB$$bcdea0e6] Service Start: OneService.one() with demoData.
+[14:14:22.951:DEBUG:OneService] good job!
+[14:39:16.904:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 233496 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:39:16.904:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:39:16.982:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:39:16.982:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:39:19.451:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:39:19.482:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:39:19.482:INFO :StandardService] Starting service [Tomcat]
+[14:39:19.482:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:39:19.654:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:39:19.654:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2672 ms
+[14:39:20.278:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:39:20.794:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:39:20.825:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:39:20.872:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:39:20.888:INFO :JavademoApplication] Started JavademoApplication in 4.742 seconds (JVM running for 7.606)
+[14:39:24.090:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:39:24.090:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:39:24.105:INFO :DispatcherServlet] Completed initialization in 15 ms
+[14:39:24.449:INFO :OneController] test info logger
+[14:39:24.449:DEBUG:OneService$$EnhancerBySpringCGLIB$$3603720c] Service Start: OneService.one() with demoData.
+[14:39:24.465:DEBUG:OneService] good job!
+[14:39:53.133:INFO :OneController] test info logger
+[14:39:53.133:DEBUG:OneService$$EnhancerBySpringCGLIB$$3603720c] Service Start: OneService.one() with demoData.
+[14:39:53.148:DEBUG:OneService] good job!
+[14:40:03.921:INFO :OneController] test info logger
+[14:40:03.921:DEBUG:OneService$$EnhancerBySpringCGLIB$$3603720c] Service Start: OneService.one() with demoData.
+[14:40:03.936:DEBUG:OneService] good job!
+[14:40:13.778:INFO :OneController] test info logger
+[14:40:13.778:DEBUG:OneService$$EnhancerBySpringCGLIB$$3603720c] Service Start: OneService.one() with kakao,demoData.
+[14:40:13.778:DEBUG:OneService] good job!
+[14:41:20.268:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 234460 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:41:20.268:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:41:20.362:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:41:20.362:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:41:22.530:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:41:22.546:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:41:22.546:INFO :StandardService] Starting service [Tomcat]
+[14:41:22.546:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:41:22.718:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:41:22.718:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2356 ms
+[14:41:23.483:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:41:23.983:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:41:24.014:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:41:24.045:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:41:24.061:INFO :JavademoApplication] Started JavademoApplication in 4.616 seconds (JVM running for 7.379)
+[14:41:57.073:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:41:57.073:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:41:57.073:INFO :DispatcherServlet] Completed initialization in 0 ms
+[14:41:57.385:INFO :OneController] test info logger
+[14:41:57.385:DEBUG:OneService$$EnhancerBySpringCGLIB$$c9fed13b] Service Start: OneService.one() with kakao,demoData.
+[14:41:57.417:DEBUG:OneService] good job!
+[14:49:39.635:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 232560 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:49:39.635:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:49:39.745:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:49:39.745:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:49:42.020:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:49:42.051:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:49:42.051:INFO :StandardService] Starting service [Tomcat]
+[14:49:42.051:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:49:42.286:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:49:42.286:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2541 ms
+[14:49:42.973:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:49:43.426:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:49:43.457:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:49:43.488:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:49:43.504:INFO :JavademoApplication] Started JavademoApplication in 4.683 seconds (JVM running for 7.392)
+[14:49:55.720:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:49:55.720:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:49:55.720:INFO :DispatcherServlet] Completed initialization in 0 ms
+[14:49:56.032:INFO :OneController] test info logger
+[14:49:56.032:DEBUG:OneService$$EnhancerBySpringCGLIB$$7a74c205] Service Start: OneService.one() with kakao,demoData.
+[14:49:56.048:DEBUG:OneService] good job!
+[14:52:55.130:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 221744 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:52:55.130:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:52:55.240:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:52:55.240:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:52:58.727:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:52:58.745:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:52:58.746:INFO :StandardService] Starting service [Tomcat]
+[14:52:58.747:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:52:59.000:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:52:59.001:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3761 ms
+[14:52:59.639:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:53:00.279:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:53:00.310:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:53:00.357:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:53:00.373:INFO :JavademoApplication] Started JavademoApplication in 6.079 seconds (JVM running for 8.663)
+[14:54:12.012:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 238156 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:54:12.028:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:54:12.122:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:54:12.122:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:54:14.402:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:54:14.418:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:54:14.433:INFO :StandardService] Starting service [Tomcat]
+[14:54:14.433:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:54:14.637:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:54:14.637:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2515 ms
+[14:54:15.261:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:54:15.761:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:54:15.808:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:54:15.839:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:54:15.855:INFO :JavademoApplication] Started JavademoApplication in 4.547 seconds (JVM running for 7.231)
+[14:54:48.218:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:54:48.218:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:54:48.218:INFO :DispatcherServlet] Completed initialization in 0 ms
+[14:54:48.522:INFO :OneController] test info logger
+[14:54:48.528:DEBUG:OneService$$EnhancerBySpringCGLIB$$ef2629ff] Service Start: OneService.one() with kakao,demoData.
+[14:54:48.606:DEBUG:OneService] good job!
+[14:56:57.570:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 232132 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[14:56:57.570:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[14:56:57.742:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[14:56:57.742:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[14:57:00.288:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[14:57:00.303:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[14:57:00.303:INFO :StandardService] Starting service [Tomcat]
+[14:57:00.303:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[14:57:00.538:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[14:57:00.538:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2781 ms
+[14:57:01.897:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[14:57:02.553:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[14:57:02.600:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[14:57:02.647:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[14:57:02.662:INFO :JavademoApplication] Started JavademoApplication in 5.862 seconds (JVM running for 8.471)
+[14:57:04.584:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:57:04.599:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[14:57:04.599:INFO :DispatcherServlet] Completed initialization in 0 ms
+[14:57:05.099:INFO :OneController] test info logger
+[14:57:05.099:DEBUG:OneService$$EnhancerBySpringCGLIB$$ffab110f] Service Start: OneService.one() with kakao,demoData.
+[14:57:05.115:DEBUG:OneService] good job!
+[15:00:20.623:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 238128 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[15:00:20.650:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[15:00:20.778:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[15:00:20.779:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[15:00:25.990:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[15:00:26.006:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[15:00:26.006:INFO :StandardService] Starting service [Tomcat]
+[15:00:26.006:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[15:00:26.287:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[15:00:26.287:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5506 ms
+[15:00:27.505:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[15:00:28.146:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[15:00:28.177:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[15:00:28.224:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[15:00:28.240:INFO :JavademoApplication] Started JavademoApplication in 8.904 seconds (JVM running for 14.11)
+[15:01:52.046:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:01:52.046:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[15:01:52.046:INFO :DispatcherServlet] Completed initialization in 0 ms
+[15:01:52.480:INFO :OneController] test info logger
+[15:01:52.483:DEBUG:OneService$$EnhancerBySpringCGLIB$$7e725806] Service Start: OneService.one() with kakao,demoData.
+[15:01:52.497:DEBUG:OneService] good job!
+[16:54:19.917:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 270148 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[16:54:19.980:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[16:54:20.136:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[16:54:20.136:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[16:54:23.447:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[16:54:23.463:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[16:54:23.463:INFO :StandardService] Starting service [Tomcat]
+[16:54:23.463:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[16:54:23.713:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[16:54:23.713:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3577 ms
+[16:54:24.400:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[16:54:25.010:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[16:54:25.041:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[16:54:25.119:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[16:54:25.150:INFO :JavademoApplication] Started JavademoApplication in 6.416 seconds (JVM running for 11.602)
+[16:55:03.281:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:55:03.281:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[16:55:03.297:INFO :DispatcherServlet] Completed initialization in 16 ms
+[16:55:04.156:INFO :OneController] test info logger
+[16:55:04.203:DEBUG:OneService$$EnhancerBySpringCGLIB$$a23f2642] Service Start: OneService.one() with demoData.
+[16:55:04.218:DEBUG:OneService] good job!
+[16:56:25.419:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [discriminator], current ElementPath  is [[configuration][appender][discriminator]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:18 - no applicable action for [key], current ElementPath  is [[configuration][appender][discriminator][key]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:27 - no applicable action for [defaultValue], current ElementPath  is [[configuration][appender][discriminator][defaultValue]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [discriminator], current ElementPath  is [[configuration][appender][discriminator]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:18 - no applicable action for [key], current ElementPath  is [[configuration][appender][discriminator][key]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:27 - no applicable action for [defaultValue], current ElementPath  is [[configuration][appender][discriminator][defaultValue]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[17:14:18.497:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 277212 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:14:18.503:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:14:18.656:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:14:18.656:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:14:21.988:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:14:22.007:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:14:22.008:INFO :StandardService] Starting service [Tomcat]
+[17:14:22.009:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:14:22.313:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:14:22.314:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3655 ms
+[17:14:23.023:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:14:23.623:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:14:23.654:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:14:23.685:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:14:23.717:INFO :JavademoApplication] Started JavademoApplication in 6.162 seconds (JVM running for 10.652)
+[17:14:33.007:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:14:33.007:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:14:33.007:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:14:33.101:INFO :OneController] test info logger
+[17:14:33.101:DEBUG:OneService$$EnhancerBySpringCGLIB$$e7d25c86] Service Start: OneService.one() with demoData.
+[17:14:33.117:DEBUG:OneService] good job!
+[17:14:58.587:INFO :OneController] test info logger
+[17:14:58.587:DEBUG:OneService$$EnhancerBySpringCGLIB$$e7d25c86] Service Start: OneService.one() with demoData.
+[17:14:58.587:DEBUG:OneService] good job!
+[17:16:27.752:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 276228 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:16:27.758:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:16:27.971:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:16:27.972:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:16:31.039:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:16:31.070:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:16:31.070:INFO :StandardService] Starting service [Tomcat]
+[17:16:31.070:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:16:31.382:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:16:31.382:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3408 ms
+[17:16:32.094:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:16:33.432:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:16:33.524:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:16:33.573:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:16:33.578:INFO :JavademoApplication] Started JavademoApplication in 7.701 seconds (JVM running for 11.461)
+[17:17:27.253:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:17:27.253:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:17:27.269:INFO :DispatcherServlet] Completed initialization in 16 ms
+[17:17:27.393:INFO :OneController] test info logger
+[17:17:27.393:DEBUG:OneService$$EnhancerBySpringCGLIB$$28bd286] Service Start: OneService.one() with demoData.
+[17:17:27.409:DEBUG:OneService] good job!
+[17:23:56.422:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 280444 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:23:56.431:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:23:56.555:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:23:56.556:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:23:59.421:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:23:59.441:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:23:59.443:INFO :StandardService] Starting service [Tomcat]
+[17:23:59.444:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:23:59.717:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:23:59.718:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3160 ms
+[17:24:00.641:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:24:01.482:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:24:01.514:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:24:01.567:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:24:01.586:INFO :JavademoApplication] Started JavademoApplication in 6.166 seconds (JVM running for 9.771)
+[17:24:07.593:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:24:07.593:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:24:07.593:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:24:08.187:INFO :OneController] test info logger
+[17:24:08.202:DEBUG:OneService$$EnhancerBySpringCGLIB$$23c5d39e] Service Start: OneService.one() with demoData.
+[17:24:08.218:DEBUG:OneService] good job!
+[17:25:15.133:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 279884 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:25:15.133:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:25:15.320:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:25:15.320:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:25:18.007:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:25:18.023:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:25:18.023:INFO :StandardService] Starting service [Tomcat]
+[17:25:18.023:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:25:18.335:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:25:18.335:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3015 ms
+[17:25:18.989:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:25:19.639:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:25:19.654:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:25:19.685:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:25:19.701:INFO :JavademoApplication] Started JavademoApplication in 5.479 seconds (JVM running for 9.388)
+[17:25:35.314:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:25:35.316:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:25:35.318:INFO :DispatcherServlet] Completed initialization in 1 ms
+[17:25:35.537:INFO :OneController] test info logger
+[17:25:35.540:DEBUG:OneService$$EnhancerBySpringCGLIB$$22257ef7] Service Start: OneService.one() with demoData.
+[17:25:35.556:DEBUG:OneService] good job!
+[17:27:39.249:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 280768 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:27:39.303:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:27:39.528:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:27:39.528:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:27:48.508:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:27:48.537:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:27:48.539:INFO :StandardService] Starting service [Tomcat]
+[17:27:48.539:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:27:48.891:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:27:48.892:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 9364 ms
+[17:27:50.842:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:27:52.485:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:27:52.531:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:27:53.116:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:27:53.154:INFO :JavademoApplication] Started JavademoApplication in 15.495 seconds (JVM running for 22.005)
+[17:27:59.207:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:27:59.239:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:27:59.248:INFO :DispatcherServlet] Completed initialization in 5 ms
+[17:27:59.593:INFO :OneController] test info logger
+[17:27:59.600:DEBUG:OneService$$EnhancerBySpringCGLIB$$ae365cf8] Service Start: OneService.one() with demoData.
+[17:27:59.619:DEBUG:OneService] good job!
+[17:35:46.239:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 283460 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:35:46.255:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:35:46.536:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:35:46.536:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:35:49.475:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:35:49.475:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:35:49.491:INFO :StandardService] Starting service [Tomcat]
+[17:35:49.491:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:35:49.709:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:35:49.709:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3173 ms
+[17:35:50.600:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:35:51.600:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:35:51.725:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:35:51.834:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:35:51.866:INFO :JavademoApplication] Started JavademoApplication in 7.105 seconds (JVM running for 10.411)
+[17:35:55.177:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:35:55.177:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:35:55.177:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:35:55.365:INFO :OneController] test info logger
+[17:35:55.365:DEBUG:OneService$$EnhancerBySpringCGLIB$$c5844d83] Service Start: OneService.one() with demoData.
+[17:35:55.396:DEBUG:OneService] good job!
+[17:36:29.085:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 282952 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:36:29.091:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:36:29.301:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:36:29.302:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:36:32.114:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:36:32.130:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:36:32.130:INFO :StandardService] Starting service [Tomcat]
+[17:36:32.130:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:36:32.466:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:36:32.468:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3164 ms
+[17:36:33.325:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:36:33.885:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:36:33.910:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:36:33.940:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:36:33.960:INFO :JavademoApplication] Started JavademoApplication in 5.945 seconds (JVM running for 9.713)
+[17:36:56.615:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:36:56.615:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:36:56.615:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:36:56.709:INFO :OneController] test info logger
+[17:36:56.724:DEBUG:OneService$$EnhancerBySpringCGLIB$$16631cc7] Service Start: OneService.one() with demoData.
+[17:36:56.740:DEBUG:OneService] good job!
+[17:37:59.270:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 284484 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[17:37:59.285:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[17:37:59.426:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[17:37:59.426:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[17:38:02.120:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[17:38:02.136:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[17:38:02.136:INFO :StandardService] Starting service [Tomcat]
+[17:38:02.136:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:38:02.339:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:38:02.339:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2913 ms
+[17:38:03.157:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:38:03.843:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[17:38:03.872:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[17:38:04.000:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[17:38:04.018:INFO :JavademoApplication] Started JavademoApplication in 5.543 seconds (JVM running for 8.818)
+[17:38:07.868:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:38:07.868:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:38:07.868:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:38:07.992:INFO :OneController] test info logger
+[17:38:07.992:DEBUG:OneService$$EnhancerBySpringCGLIB$$d98d3d93] Service Start: OneService.one() with demoData.
+[17:38:08.008:DEBUG:OneService] good job!
+[] [17:39:18.132:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 284152 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[] [17:39:18.138:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[] [17:39:18.311:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [17:39:18.311:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [17:39:20.779:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[] [17:39:20.794:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[] [17:39:20.794:INFO :StandardService] Starting service [Tomcat]
+[] [17:39:20.794:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[] [17:39:20.997:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[] [17:39:20.997:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2683 ms
+[] [17:39:21.899:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[] [17:39:22.682:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[] [17:39:22.713:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[] [17:39:22.744:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[] [17:39:22.775:INFO :JavademoApplication] Started JavademoApplication in 5.532 seconds (JVM running for 8.57)
+[] [17:39:37.248:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [17:39:37.252:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[] [17:39:37.254:INFO :DispatcherServlet] Completed initialization in 1 ms
+[1b94e48a-7f68-4282-870a-25b5447d06cc] [17:39:37.364:INFO :OneController] test info logger
+[1b94e48a-7f68-4282-870a-25b5447d06cc] [17:39:37.366:DEBUG:OneService$$EnhancerBySpringCGLIB$$18e31ffd] Service Start: OneService.one() with demoData.
+[1b94e48a-7f68-4282-870a-25b5447d06cc] [17:39:37.380:DEBUG:OneService] good job!
+[] [17:41:00.746:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@7965be4b - Could not start evaluator with expression [System.out.println(mdc.containsKey("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@7965be4b - Could not start evaluator with expression [System.out.println(mdc.containsKey("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[] [17:41:53.407:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@2911f88f - Could not start evaluator with expression [System.out.println(MDC.get("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 27: Unknown variable or type "MDC"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@2911f88f - Could not start evaluator with expression [System.out.println(MDC.get("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 27: Unknown variable or type "MDC"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[] [17:42:11.850:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@322c24b2 - Could not start evaluator with expression [System.out.println(mdc.get("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@322c24b2 - Could not start evaluator with expression [System.out.println(mdc.get("GUID"));] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[] [17:42:29.889:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@4a7c6bfd - Could not start evaluator with expression [System.out.println(mdc.get("GUID").toString());] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@4a7c6bfd - Could not start evaluator with expression [System.out.println(mdc.get("GUID").toString());] org.codehaus.janino.CompileException: Line 2, Column 1: Assignment conversion not possible from type "void" to type "boolean"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[][17:44:49.494:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 285828 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:44:49.494:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][17:44:49.666:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:44:49.666:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:44:52.181:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][17:44:52.197:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:44:52.197:INFO :StandardService] Starting service [Tomcat]
+[][17:44:52.197:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:44:52.446:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][17:44:52.462:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2780 ms
+[][17:44:54.009:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:44:54.665:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][17:44:54.696:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][17:44:54.743:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:44:54.805:INFO :JavademoApplication] Started JavademoApplication in 6.352 seconds (JVM running for 9.514)
+[][17:45:07.016:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:45:07.016:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][17:45:07.016:INFO :DispatcherServlet] Completed initialization in 0 ms
+[0901a271-3853-4941-ae53-c9aef4c4f5f7][17:45:07.156:INFO :OneController] test info logger
+[0901a271-3853-4941-ae53-c9aef4c4f5f7][17:45:07.156:DEBUG:OneService$$EnhancerBySpringCGLIB$$d39639d7] Service Start: OneService.one() with demoData.
+[0901a271-3853-4941-ae53-c9aef4c4f5f7][17:45:07.188:DEBUG:OneService] good job!
+[][17:46:39.164:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 285932 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:46:39.180:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][17:46:39.351:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:46:39.351:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:46:42.929:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][17:46:42.960:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:46:42.960:INFO :StandardService] Starting service [Tomcat]
+[][17:46:42.960:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:46:43.362:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][17:46:43.363:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3996 ms
+[][17:46:44.246:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:46:44.918:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][17:46:44.949:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][17:46:44.996:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:46:45.011:INFO :JavademoApplication] Started JavademoApplication in 6.663 seconds (JVM running for 11.615)
+[][17:47:13.411:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:47:13.411:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][17:47:13.411:INFO :DispatcherServlet] Completed initialization in 0 ms
+[128ae953-f79d-4fd4-881d-33551e0571c3][17:47:13.520:INFO :OneController] test info logger
+[128ae953-f79d-4fd4-881d-33551e0571c3][17:47:13.520:DEBUG:OneService$$EnhancerBySpringCGLIB$$79dad3f3] Service Start: OneService.one() with demoData.
+[128ae953-f79d-4fd4-881d-33551e0571c3][17:47:13.552:DEBUG:OneService] good job!
+[][17:51:04.016:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [discriminator], current ElementPath  is [[configuration][appender][discriminator]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:18 - no applicable action for [key], current ElementPath  is [[configuration][appender][discriminator][key]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:27 - no applicable action for [defaultValue], current ElementPath  is [[configuration][appender][discriminator][defaultValue]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [discriminator], current ElementPath  is [[configuration][appender][discriminator]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:18 - no applicable action for [key], current ElementPath  is [[configuration][appender][discriminator][key]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:27 - no applicable action for [defaultValue], current ElementPath  is [[configuration][appender][discriminator][defaultValue]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[][17:58:10.247:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 288800 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][17:58:10.309:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][17:58:10.497:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][17:58:10.497:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][17:58:13.332:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][17:58:13.353:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][17:58:13.355:INFO :StandardService] Starting service [Tomcat]
+[][17:58:13.356:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][17:58:13.656:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][17:58:13.657:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3160 ms
+[][17:58:14.462:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][17:58:15.137:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][17:58:15.163:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][17:58:15.211:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][17:58:15.232:INFO :JavademoApplication] Started JavademoApplication in 6.013 seconds (JVM running for 9.04)
+[][17:58:23.027:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][17:58:23.027:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][17:58:23.027:INFO :DispatcherServlet] Completed initialization in 0 ms
+[0379b60c-f774-4a39-b9ba-090c6acf6570][17:58:23.324:INFO :OneController] test info logger
+[][18:01:29.211:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 290856 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][18:01:29.273:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][18:01:29.461:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][18:01:29.461:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][18:01:32.257:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][18:01:32.273:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][18:01:32.273:INFO :StandardService] Starting service [Tomcat]
+[][18:01:32.273:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][18:01:32.507:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][18:01:32.507:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3046 ms
+[][18:01:33.163:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][18:01:33.720:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][18:01:33.739:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][18:01:33.765:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][18:01:33.779:INFO :JavademoApplication] Started JavademoApplication in 5.338 seconds (JVM running for 9.642)
+[][18:01:40.221:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][18:01:40.222:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][18:01:40.223:INFO :DispatcherServlet] Completed initialization in 1 ms
+[7a967a5f-676c-411f-95a9-50d275daa19a][18:01:40.509:INFO :OneController] test info logger
+[][18:03:11.608:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 288908 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][18:03:11.658:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][18:03:11.786:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][18:03:11.788:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][18:03:14.357:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][18:03:14.372:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][18:03:14.372:INFO :StandardService] Starting service [Tomcat]
+[][18:03:14.372:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][18:03:14.700:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][18:03:14.700:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2910 ms
+[][18:03:15.372:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][18:03:16.098:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][18:03:16.151:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][18:03:16.252:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][18:03:16.271:INFO :JavademoApplication] Started JavademoApplication in 5.523 seconds (JVM running for 8.565)
+[][18:03:27.386:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][18:03:27.386:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][18:03:27.386:INFO :DispatcherServlet] Completed initialization in 0 ms
+[f0f21e43-2cc5-451f-a927-a5490a4e5d5e][18:03:27.636:INFO :OneController] test info logger
+[18:09:16.463:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 293424 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[18:09:16.479:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[18:09:16.636:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[18:09:16.636:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[18:09:20.272:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[18:09:20.299:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[18:09:20.301:INFO :StandardService] Starting service [Tomcat]
+[18:09:20.302:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[18:09:20.591:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[18:09:20.591:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3953 ms
+[18:09:21.357:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[18:09:22.029:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[18:09:22.056:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[18:09:22.101:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[18:09:22.121:INFO :JavademoApplication] Started JavademoApplication in 6.615 seconds (JVM running for 10.637)
+[18:09:25.855:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18:09:25.855:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[18:09:25.857:INFO :DispatcherServlet] Completed initialization in 1 ms
+[18:09:26.177:INFO :OneController] test info logger
+[18:09:26.178:DEBUG:OneService$$EnhancerBySpringCGLIB$$fff41b4d] Service Start: OneService.one() with demoData.
+[18:09:26.192:DEBUG:OneService] good job!
+[][18:20:34.559:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 293560 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][18:20:34.565:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][18:20:34.722:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][18:20:34.723:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][18:20:38.038:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][18:20:38.070:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][18:20:38.070:INFO :StandardService] Starting service [Tomcat]
+[][18:20:38.070:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][18:20:38.405:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][18:20:38.406:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3680 ms
+[][18:20:39.336:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][18:20:40.085:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][18:20:40.117:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][18:20:40.148:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][18:20:40.164:INFO :JavademoApplication] Started JavademoApplication in 6.425 seconds (JVM running for 14.541)
+[][18:20:43.288:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][18:20:43.288:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][18:20:43.288:INFO :DispatcherServlet] Completed initialization in 0 ms
+[cff0b918-7b2c-4d2b-b672-2af40ae7d963][18:20:44.178:INFO :OneController] test info logger
+[cff0b918-7b2c-4d2b-b672-2af40ae7d963][18:20:44.194:DEBUG:OneService$$EnhancerBySpringCGLIB$$48bc7339] Service Start: OneService.one() with demoData.
+[cff0b918-7b2c-4d2b-b672-2af40ae7d963][18:20:44.210:DEBUG:OneService] good job!
+[mdc{GUID}][18:24:17.974:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 277840 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[mdc{GUID}][18:24:17.974:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[mdc{GUID}][18:24:18.130:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[mdc{GUID}][18:24:18.130:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[mdc{GUID}][18:24:21.196:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[mdc{GUID}][18:24:21.219:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[mdc{GUID}][18:24:21.220:INFO :StandardService] Starting service [Tomcat]
+[mdc{GUID}][18:24:21.221:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[mdc{GUID}][18:24:21.474:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[mdc{GUID}][18:24:21.475:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3345 ms
+[mdc{GUID}][18:24:22.480:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[mdc{GUID}][18:24:23.466:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[mdc{GUID}][18:24:23.498:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[mdc{GUID}][18:24:23.548:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[mdc{GUID}][18:24:23.570:INFO :JavademoApplication] Started JavademoApplication in 6.587 seconds (JVM running for 10.331)
+[mdc{GUID}][18:24:28.564:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[mdc{GUID}][18:24:28.565:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[mdc{GUID}][18:24:28.567:INFO :DispatcherServlet] Completed initialization in 2 ms
+[mdc{GUID}][18:24:28.931:INFO :OneController] test info logger
+[mdc{GUID}][18:24:28.933:DEBUG:OneService$$EnhancerBySpringCGLIB$$b04ec121] Service Start: OneService.one() with demoData.
+[mdc{GUID}][18:24:28.947:DEBUG:OneService] good job!
+[][18:25:21.925:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 298688 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][18:25:21.925:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][18:25:22.050:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][18:25:22.050:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][18:25:25.121:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][18:25:25.138:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][18:25:25.140:INFO :StandardService] Starting service [Tomcat]
+[][18:25:25.140:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][18:25:25.372:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][18:25:25.372:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3322 ms
+[][18:25:26.200:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][18:25:26.854:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][18:25:26.879:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][18:25:26.911:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][18:25:26.931:INFO :JavademoApplication] Started JavademoApplication in 5.746 seconds (JVM running for 9.187)
+[][18:25:27.110:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][18:25:27.112:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][18:25:27.118:INFO :DispatcherServlet] Completed initialization in 5 ms
+[6e4b3f09-25ff-44f5-923f-ae1b9ba23d80][18:25:27.648:INFO :OneController] test info logger
+[6e4b3f09-25ff-44f5-923f-ae1b9ba23d80][18:25:27.649:DEBUG:OneService$$EnhancerBySpringCGLIB$$c55c9535] Service Start: OneService.one() with demoData.
+[6e4b3f09-25ff-44f5-923f-ae1b9ba23d80][18:25:27.664:DEBUG:OneService] good job!
+[         ][19:18:53.094:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 313268 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[         ][19:18:53.100:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[         ][19:18:53.285:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[         ][19:18:53.285:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[         ][19:18:56.432:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[         ][19:18:56.448:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[         ][19:18:56.448:INFO :StandardService] Starting service [Tomcat]
+[         ][19:18:56.448:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[         ][19:18:56.854:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[         ][19:18:56.854:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3567 ms
+[         ][19:18:58.180:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[         ][19:18:58.811:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[         ][19:18:58.842:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[         ][19:18:58.873:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[         ][19:18:58.889:INFO :JavademoApplication] Started JavademoApplication in 7.066 seconds (JVM running for 14.43)
+[         ][19:19:42.444:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[         ][19:19:42.460:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[         ][19:19:42.460:INFO :DispatcherServlet] Completed initialization in 0 ms
+[2edb1cf8-9921-448b-9dee-af60cc8ec29e][19:19:42.710:INFO :OneController] test info logger
+[2edb1cf8-9921-448b-9dee-af60cc8ec29e][19:19:42.710:DEBUG:OneService$$EnhancerBySpringCGLIB$$b63b5065] Service Start: OneService.one() with demoData.
+[2edb1cf8-9921-448b-9dee-af60cc8ec29e][19:19:42.725:DEBUG:OneService] good job!
+[19:20:41.482:INFO :JavademoApplication ] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 301484 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[19:20:41.488:INFO :JavademoApplication ] No active profile set, falling back to default profiles: default
+[19:20:41.585:INFO :DevToolsPropertyDefaultsPostProcessor ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[19:20:41.585:INFO :DevToolsPropertyDefaultsPostProcessor ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[19:20:44.358:INFO :TomcatWebServer ] Tomcat initialized with port(s): 8080 (http)
+[19:20:44.389:INFO :Http11NioProtocol ] Initializing ProtocolHandler ["http-nio-8080"]
+[19:20:44.389:INFO :StandardService ] Starting service [Tomcat]
+[19:20:44.389:INFO :StandardEngine ] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[19:20:44.608:INFO :[/] ] Initializing Spring embedded WebApplicationContext
+[19:20:44.608:INFO :ServletWebServerApplicationContext ] Root WebApplicationContext: initialization completed in 3023 ms
+[19:20:45.326:INFO :ThreadPoolTaskExecutor ] Initializing ExecutorService 'applicationTaskExecutor'
+[19:20:45.889:INFO :OptionalLiveReloadServer ] LiveReload server is running on port 35729
+[19:20:45.920:INFO :Http11NioProtocol ] Starting ProtocolHandler ["http-nio-8080"]
+[19:20:45.951:INFO :TomcatWebServer ] Tomcat started on port(s): 8080 (http) with context path ''
+[19:20:45.967:INFO :JavademoApplication ] Started JavademoApplication in 5.447 seconds (JVM running for 8.508)
+[19:21:12.958:INFO :[/] ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:21:12.958:INFO :DispatcherServlet ] Initializing Servlet 'dispatcherServlet'
+[19:21:12.958:INFO :DispatcherServlet ] Completed initialization in 0 ms
+[19:21:13.255:INFO :OneController 8c106f58-2a77-4110-9477-906707f409ce] test info logger
+[19:21:13.255:DEBUG:OneService$$EnhancerBySpringCGLIB$$6761f589 8c106f58-2a77-4110-9477-906707f409ce] Service Start: OneService.one() with demoData.
+[19:21:13.270:DEBUG:OneService 8c106f58-2a77-4110-9477-906707f409ce] good job!
+[TECH 19:22:32.786:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 313676 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[TECH 19:22:32.795:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[TECH 19:22:33.066:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[TECH 19:22:33.067:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[TECH 19:22:36.497:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[TECH 19:22:36.497:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[TECH 19:22:36.513:INFO :StandardService] Starting service [Tomcat]
+[TECH 19:22:36.513:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[TECH 19:22:36.682:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[TECH 19:22:36.682:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3612 ms
+[TECH 19:22:37.558:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[TECH 19:22:38.506:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[TECH 19:22:38.533:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[TECH 19:22:38.576:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[TECH 19:22:38.598:INFO :JavademoApplication] Started JavademoApplication in 6.942 seconds (JVM running for 13.106)
+[TECH 19:23:24.178:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 312352 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[TECH 19:23:24.178:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[TECH 19:23:24.256:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[TECH 19:23:24.256:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[TECH 19:23:26.818:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[TECH 19:23:26.834:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[TECH 19:23:26.834:INFO :StandardService] Starting service [Tomcat]
+[TECH 19:23:26.834:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[TECH 19:23:27.108:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[TECH 19:23:27.108:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2852 ms
+[TECH 19:23:27.951:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[TECH 19:23:28.795:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[TECH 19:23:28.826:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[TECH 19:23:28.857:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[TECH 19:23:28.873:INFO :JavademoApplication] Started JavademoApplication in 5.386 seconds (JVM running for 8.438)
+[TECH 19:23:33.388:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TECH 19:23:33.388:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[TECH 19:23:33.403:INFO :DispatcherServlet] Completed initialization in 15 ms
+[21f886cc-fc3d-444a-ae92-af445f9436d2 19:23:34.018:INFO :OneController] test info logger
+[21f886cc-fc3d-444a-ae92-af445f9436d2 19:23:34.018:DEBUG:OneService$$EnhancerBySpringCGLIB$$b3ec225b] Service Start: OneService.one() with demoData.
+[21f886cc-fc3d-444a-ae92-af445f9436d2 19:23:34.081:DEBUG:OneService] good job!
+[19:27:48.883:ERROR:SpringApplication] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@1d81be14 - Could not start evaluator with expression [System.out.println(mds.get("GUID")); return mds.containsKey("GUID");] org.codehaus.janino.CompileException: Line 2, Column 20: Unknown variable or type "mds"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.javademo.JavademoApplication.main(JavademoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.boolex.JaninoEventEvaluator@1d81be14 - Could not start evaluator with expression [System.out.println(mds.get("GUID")); return mds.containsKey("GUID");] org.codehaus.janino.CompileException: Line 2, Column 20: Unknown variable or type "mds"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+[19:28:10.836:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 279852 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[19:28:10.851:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[19:28:11.086:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[19:28:11.086:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[19:28:14.069:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[19:28:14.085:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[19:28:14.085:INFO :StandardService] Starting service [Tomcat]
+[19:28:14.085:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[19:28:14.319:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[19:28:14.319:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3046 ms
+[19:28:15.038:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[19:28:15.569:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[19:28:15.585:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[19:28:15.616:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[19:28:15.632:INFO :JavademoApplication] Started JavademoApplication in 5.756 seconds (JVM running for 8.966)
+[19:28:19.818:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:28:19.818:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[19:28:19.818:INFO :DispatcherServlet] Completed initialization in 0 ms
+[19:29:39.632:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 315716 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[19:29:39.648:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[19:29:39.836:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[19:29:39.836:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[19:29:42.897:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[19:29:42.913:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[19:29:42.913:INFO :StandardService] Starting service [Tomcat]
+[19:29:42.913:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[19:29:43.100:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[19:29:43.100:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3249 ms
+[19:29:43.881:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[19:29:44.538:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[19:29:44.553:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[19:29:44.584:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[19:29:44.600:INFO :JavademoApplication] Started JavademoApplication in 6.165 seconds (JVM running for 11.122)
+[][19:30:42.368:INFO :JavademoApplication] Starting JavademoApplication using Java 1.8.0_131 on DESKTOP-ADHSVA6 with PID 313364 (C:\Users\Me\IdeaProjects\javademo\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\javademo)
+[][19:30:42.368:INFO :JavademoApplication] No active profile set, falling back to default profiles: default
+[][19:30:42.477:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[][19:30:42.477:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[][19:30:45.072:INFO :TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+[][19:30:45.090:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[][19:30:45.092:INFO :StandardService] Starting service [Tomcat]
+[][19:30:45.092:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.43]
+[][19:30:45.365:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[][19:30:45.365:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2888 ms
+[][19:30:46.256:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[][19:30:46.865:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[][19:30:46.880:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[][19:30:46.912:INFO :TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+[][19:30:46.927:INFO :JavademoApplication] Started JavademoApplication in 5.385 seconds (JVM running for 8.743)
+[][19:30:49.427:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[][19:30:49.427:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[][19:30:49.427:INFO :DispatcherServlet] Completed initialization in 0 ms
+[2873fa36-dec5-4441-bb28-25d3c2740649][19:30:49.770:INFO :OneController] test info logger
+[2873fa36-dec5-4441-bb28-25d3c2740649][19:30:49.770:DEBUG:OneService$$EnhancerBySpringCGLIB$$65d5b533] Service Start: OneService.one() with demoData.
+[2873fa36-dec5-4441-bb28-25d3c2740649][19:30:49.786:DEBUG:OneService] good job!

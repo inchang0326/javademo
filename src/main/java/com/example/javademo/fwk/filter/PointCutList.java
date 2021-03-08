@@ -12,7 +12,12 @@ public class PointCutList {
     public void oneController() {
     }
 
+    @Pointcut("execution(* com.example.javademo.part.com.controller.OneController.*(..))")
+    public void oneControllerForLogTest() {
+    }
+
     @Pointcut("execution(* com.example.javademo..service..*.*(..))")
     public void oneService() {
     }
+
 }
