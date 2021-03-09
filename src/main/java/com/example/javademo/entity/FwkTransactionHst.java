@@ -10,7 +10,7 @@ import java.time.OffsetDateTime;
 @Entity
 @Table(name = "fwk_transaction_hst")
 @IdClass(FwkTransactionHstId.class) // Primary Key 집합 설정
-@Data
+@Data // lombok : getter() / setter() 자동생성
 public class FwkTransactionHst {
     // Primary Key
     @Id LocalDate transactionDate;

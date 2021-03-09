@@ -13,7 +13,7 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 
 @Service
-@Log // = protected final Logger logAdvice = (Logger) LoggerFactory.getLogger(TransactionService.class)
+@Log // lombok : protected final Logger logAdvice = (Logger) LoggerFactory.getLogger(TransactionService.class)
 public class TransactionService {
 
     @Autowired TransactionRepo repo;

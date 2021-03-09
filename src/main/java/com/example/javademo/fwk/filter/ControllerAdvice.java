@@ -30,7 +30,7 @@ import java.time.ZoneId;
 
 @Aspect
 @Component
-@Log // = protected final Logger logAdvice = (Logger) LoggerFactory.getLogger(ControllerAdvice.class)
+@Log // lombok : protected final Logger logAdvice = (Logger) LoggerFactory.getLogger(ControllerAdvice.class)
 public class ControllerAdvice {
 
 /*

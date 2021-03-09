@@ -7,7 +7,7 @@ import javax.persistence.*;
 // DTO(Data Transfer Object) 객체 - Layer 간 데이터를 전달하기 위한 객체라는 의미를 갖는다.
 @Entity
 @Table(name = "com_user_mst")
-@Data
+@Data // lombok : getter() / setter() 자동생성
 public class UserMst {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
