@@ -75,12 +75,27 @@ import java.util.HashMap;
  */
 
 /*
-    Plugins > restfultool 플러그인
-    ctrl + alt + / : Restful URI 바로찾기
- */
+    ■ Spring WebFlux의 Reactive Programming(Non-blocking + Back Pressure)
+      WebFlux는 Spring Framework v5.0에서 새롭게 추가된 모듈이다.
+      기존 Spring은 사용자 요청마다 Thread가 발생하여 Multi-Thread가 당연시 되었다.
+      이때 Thread Pool에 Thread가 부족하여 처리율이 저하될 수 있고,
+      Thread를 늘려도 메모리 및 CPU 부하(컨텍스스트 스위칭)가 발생할 수 있다.
+      만약 정해진 Thread Pool 보다 대기 Queue에 요청이 쌓이면 Latency가 급격히 높아지는 Thread Pool Hell을 야기한다.
+      ※ Latency : 한 지점에서(출처) 다른 지점으로(도착) 전송되는 데 소요된 시간(Ex. 버튼 클릭 후 이벤트가 팝업되는 시간)
 
-/*
-    npm autocannon > 성능테스트를 위한 부하 생성
+      문제 해결을 위해 WebFlux는 Single Thread가 최대한의 요청을 처리하도록 하여 최소한의 자원으로 동시성을 핸들링한다.
+      따라서 서비스 호출이 잦은 MSA(Micro Service Architecture) 구조에 적합하다.
+
+      ▶ Non-blocking
+        기존 Spring은 A 요청 시, 한 Thread가 응답값을 받아 반환하기 전까지 기다리는데 반해
+        Spring WebFlux는 A 요청 시, 한 Thread가 응답값을 받기 전까지 기다리지 않고, B 요청을 처리한다.
+        여기서 전자가 Blocking 방식이고, 후자가 Non-blocking 방식이다.
+
+      ▶ Back Pressure
+        Publisher에서 발행하고, Subscriber에서 구독할 때, Publisher에서 Subscriber로 데이터를 push하는 방식이 아닌
+        Subscriber가 pull하는 방식으로 Publisher로부터 처리할 수 있는 데이터 양을 요청 함으로써
+        Subscriber에서 발생할 수 있는 장애를 방지하기 위함이다.
+        즉, 다이나믹 풀 방식의 데이터 요청을 통해 구독자가 수용할 수 있는 만큼 데이터를 요청하는 방식이다.
  */
 
 /*
@@ -88,12 +103,13 @@ import java.util.HashMap;
     Logstash :
     Kibana :
     Redis :
+    Kafka :
+    RabbitMQ :
  */
 
 /*
-    Spring WebFlux :
-    Blocking vs Non-blocking :
  */
+
 @RestController
 @RequestMapping(value = "/one")
 public class OneController extends BaseController {
@@ -143,3 +159,9 @@ public class OneController extends BaseController {
 //        return "good"; // Controller가 String 타입을 반환한다 하더라도 viewResolver에게 view name을 전달한다.
 //    }
 }
+
+/*
+    Plugins > restfultool 플러그인
+              ㄴ ctrl + alt + / : Restful URI 바로찾기
+    npm autocannon > 성능테스트를 위한 부하 생성
+ */
