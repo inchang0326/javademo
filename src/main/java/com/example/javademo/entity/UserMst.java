@@ -32,6 +32,6 @@ public class UserMst {
            return isInsert;
        }
 
-    2. ~
+    2. @SelectBeforeUpdate(false) 사용
      */
 }
