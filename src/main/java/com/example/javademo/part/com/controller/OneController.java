@@ -107,9 +107,6 @@ import java.util.HashMap;
     RabbitMQ :
  */
 
-/*
- */
-
 @RestController
 @RequestMapping(value = "/one")
 public class OneController extends BaseController {

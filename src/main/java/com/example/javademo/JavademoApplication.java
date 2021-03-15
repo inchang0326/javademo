@@ -3,6 +3,7 @@ package com.example.javademo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication // Bean 생성 및 자동 등록 등등
