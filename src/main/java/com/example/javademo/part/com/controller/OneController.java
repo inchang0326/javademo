@@ -106,8 +106,15 @@ import java.util.HashMap;
 
     ■ ELK 스택과 같이 사용되는 프레임워크
       ▶ Redis : Key-Value로 저장되는(NOSQL) In-memory 데이터베이스
-      ▶ RabbitMQ :
-      ▶ Kafka :
+      ▶ RabbitMQ : Message Broker/Queue Software, 예를 들어, 유저가 인터넷에 정보를 업로드하면 PDF로 출력해주는 웹 애플리케이션이 있다고 가정하자.
+                   Web App(Producer) - RabbitMQ(Message Queue) - PDF Generator Server(Consumer)
+                                                               - PDF Generator Server2
+                                                               - PDF Generator Server3
+                                                               ... // 트래픽이 많으면, 여러 서버가 존재할 수 있음
+                   (1) Consumer가 RabbitMQ에게 Message를 retrieve하기 전 까진, Message는 RabbitMQ에 저장된다(Data Storing).
+                   (2) Message Broker는 여러 Consumer에게 적절히 일감을 나누어줄 수 있다(Load Balance). >> MSA 구조에 적합
+                   (3) Producer와 Consumer가 각각 어느 언어로 개발되었던 호환될 수 있다.
+      ▶ Kafka : RabbitMQ와 마찬가지로 Message Broker/Queue Software다.
  */
 
 /*
