@@ -117,9 +117,6 @@ import java.util.HashMap;
       ▶ Kafka : RabbitMQ와 마찬가지로 Message Broker/Queue Software다.
  */
 
-/*
- */
-
 @RestController
 @RequestMapping(value = "/one")
 public class OneController extends BaseController {

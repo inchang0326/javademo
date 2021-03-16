@@ -15,7 +15,7 @@
         <withJansi>true</withJansi>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>[%X{GUID}][%d{HH:mm:ss.SSS}:%highlight(%-5p):%cyan(%c):%-5L][%thread] %m%n</pattern>
+            <pattern>[%X{GUID}][%d{HH:mm:ss.SSS}:%highlight(%-5p):%cyan(%c):%L][%thread] %m%n</pattern>
         </encoder>
     </appender>
 
@@ -51,16 +51,23 @@
 
         <sift>
             <!-- A standard RollingFileAppender, the log file is based on 'logFileName' at runtime  -->
-            <appender name="${logServiceFileName}" class="ch.qos.logback.core.FileAppender">
+            <appender name="${logServiceFileName}" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
                 <file>${logHome}service/${logServiceFileName}</file>
-                <encoder>
-                    <charset>UTF-8</charset>
-                    <pattern>[%X{GUID}][%d{HH:mm:ss.sss}:%c{0}:%L:] %m%n</pattern>
-                </encoder>
                 <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
                     <fileNamePattern>${logHome}/service/${logServiceFileName}.log.%d{yyMMdd}</fileNamePattern>
                 </rollingPolicy>
-                <maxHistory>4</maxHistory>
+
+                <encoder>
+                    <charset>UTF-8</charset>
+                    <springProfile name="local">
+                        <pattern>[%X{GUID}][%d{HH:mm:ss.SSS}:%-5p:%c{0}:%L] %m%n</pattern>
+                    </springProfile>
+                    <springProfile name="!local">
+                        <pattern>[%X{GUID}][%d{HH:mm:ss.SSS}:%-5p:%c{0}] %m%n</pattern>
+                    </springProfile>
+                </encoder>
+                <param name="MaxBackupIndex" value="4"/>
             </appender>
         </sift>
 
