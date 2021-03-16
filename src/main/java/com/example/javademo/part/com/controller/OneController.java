@@ -99,12 +99,15 @@ import java.util.HashMap;
  */
 
 /*
-    Elasticsearch :
-    Logstash :
-    Kibana :
-    Redis :
-    Kafka :
-    RabbitMQ :
+    ■ ELK 스택 : 로그 검색 시 데이터를 수집 및 집계하여 시각화 및 모니터링을 가능하게 해줌
+      ▶ (E)lasticsearch : 굉장히 신속한 검색 엔진
+      ▶ (L)ogstash : 로그 데이터를 수집, 집계, 파싱하여 Elasticsearch로 전달
+      ▶ (K)ibana : Elasticsearch를 통해 검색한 데이터 시각화 및 모니터링
+
+    ■ ELK 스택과 같이 사용되는 프레임워크
+      ▶ Redis : Key-Value로 저장되는(NOSQL) In-memory 데이터베이스
+      ▶ RabbitMQ :
+      ▶ Kafka :
  */
 
 /*
