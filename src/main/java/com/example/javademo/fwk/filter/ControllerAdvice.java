@@ -1,5 +1,6 @@
 package com.example.javademo.fwk.filter;
 
+import com.example.javademo.entity.FwkTransactionHst;
 import com.example.javademo.fwk.base.BaseController;
 import com.example.javademo.fwk.component.TransactionService;
 import com.example.javademo.fwk.pojo.CommonArea;
@@ -27,6 +28,7 @@ import java.net.UnknownHostException;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
+import java.util.concurrent.CompletableFuture;
 
 @Aspect
 @Component
@@ -85,7 +87,7 @@ public class ControllerAdvice {
         setCommonArea(req, ca);
         /* FwkTransactionHst init end */
 
-        ts.saveTr(ca);
+        CompletableFuture<FwkTransactionHst> futureTr = ts.saveTr(ca);
         try {
             Object bc = pjp.getThis();
             if(bc instanceof BaseController) {
@@ -100,7 +102,7 @@ public class ControllerAdvice {
             ca.setStatusCode("500");
         } finally {
             ca.setEndTime(OffsetDateTime.now(ZoneId.of("+9")));
-            ts.updateTr(ca);
+            ts.updateTr(ca, futureTr);
         }
 
         log.info("allController() around end");

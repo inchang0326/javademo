@@ -10,7 +10,10 @@ import org.springframework.core.annotation.Order;
 import javax.sql.DataSource;
 import java.io.IOException;
 
-// Ddocker로 띄움
+/* Docker로 띄움
+   ㄴ 오픈소스 가상화 플랫폼으로, Docker에 Oracle이 있고 사용자가 Oracle 이미지를 실행하면,
+      Docker 컨테이너라는 가상환경에서 Oracle을 사용할 수 있다.
+* */
 // Java Config로 해야 나중에 동적으로 다른 DBMS를 교체할 수 있다.
 @Profile("local") // 해당 App. 즉 프로젝트 Config 설정 중 Active Profile이 "local"일 경우에만 적용된다.
 @Configuration

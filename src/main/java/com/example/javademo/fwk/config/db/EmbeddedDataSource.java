@@ -2,6 +2,7 @@ package com.example.javademo.fwk.config.db;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -29,13 +30,16 @@ import java.util.HashMap;
         transactionManagerRef = "publicTransactionManager")
 public class EmbeddedDataSource {
 
+    @Value("${jdbc.url}")
+    private String jdbcUrl;
+
     @Bean(name = "embeddedPrimaryDataSource") // 메소드 리턴값을 클래스로 보고 인스턴스화(Bean) 하는 것이다.
     @DependsOn("embeddedDb") // embeddedDb 생성 후 생성해달라는 의존성
     @Order(Ordered.LOWEST_PRECEDENCE)
     public DataSource embeddedPrimaryDataSource() {
 
         HikariDataSource ds = new HikariDataSource();
-        ds.setJdbcUrl("jdbc:postgresql://localhost:5432/postgres?ssl=false&charset=utf8");
+        ds.setJdbcUrl(jdbcUrl);
         ds.setUsername("postgres");
         ds.setPassword("postgres");
         ds.setMinimumIdle(5);

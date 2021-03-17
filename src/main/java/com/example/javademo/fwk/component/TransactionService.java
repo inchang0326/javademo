@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 @Service
 @Log // lombok : protected final Logger logAdvice = (Logger) LoggerFactory.getLogger(TransactionService.class)
@@ -18,15 +20,27 @@ public class TransactionService {
 
     @Autowired TransactionRepo repo;
 
+    // 트래픽이 과도하니 save update같이 수행되어 pk dup 발생
+    // complatablefuture
     @Async
-    public void saveTr(CommonArea commons) {
-        log.info("saveTr start");
-        repo.save(convertTr(commons));
+    public CompletableFuture<FwkTransactionHst> saveTr(CommonArea commons) {
+        return CompletableFuture.supplyAsync(() -> {
+            log.info("saveTr start");
+            FwkTransactionHst tr = convertTr(commons);
+            return repo.save(tr);
+        });
     }
 
     @Async
-    public void updateTr(CommonArea commons) {
+    public void updateTr(CommonArea commons, CompletableFuture<FwkTransactionHst> futureTr) {
         log.info("updateTr start");
+
+        try {
+            futureTr.get(); // futureTr 기다림..
+        } catch (InterruptedException | ExecutionException e) {
+            log.info("futureTr Error!!");
+        }
+
         FwkTransactionHstId id = new FwkTransactionHstId();
         id.setTransactionDate(commons.getTransactionDate());
         id.setAppName(commons.getAppName());
@@ -35,6 +49,10 @@ public class TransactionService {
         repo.findById(id); // findById(PK Type > Generic Type)
         repo.save(convertTr(commons));
     }
+
+    /* 대용량 트래픽처리할 때 pk 안넣음 그 이유는 pk 처리가 오래걸리기 때문
+    *  안정적 비동기 프로그래밍 처리에 대해
+    * */
 
     public FwkTransactionHst convertTr(CommonArea commons) {
         // FwkTransactionHst init

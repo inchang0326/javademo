@@ -94,7 +94,7 @@ import java.util.HashMap;
       ▶ Back Pressure
         Publisher에서 발행하고, Subscriber에서 구독할 때, Publisher에서 Subscriber로 데이터를 push하는 방식이 아닌
         Subscriber가 pull하는 방식으로 Publisher로부터 처리할 수 있는 데이터 양을 요청 함으로써
-        Subscriber에서 발생할 수 있는 장애를 방지하기 위함이다.
+        Subscriber에서 발생o할 수 있는 장애를 방지하기 위함이다.
         즉, 다이나믹 풀 방식의 데이터 요청을 통해 구독자가 수용할 수 있는 만큼 데이터를 요청하는 방식이다.
  */
 

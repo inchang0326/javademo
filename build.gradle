@@ -30,6 +30,7 @@ dependencies {
     // Spring Cloud Config - Client
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
     implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     // DB : Embedded PostgreSQL
     runtimeOnly "org.postgresql:postgresql"
