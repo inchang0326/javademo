@@ -16,11 +16,6 @@ configurations {
 
 repositories {
     mavenCentral()
-    maven{url "https://nexus.kabang.io:2443/repository/release"}
-    maven{url "https://nexus.kabang.io:2443/repository/releases"}
-    maven{url "https://nexus.kabang.io:2443/repository/thirdparty"}
-    maven{url "https://nexus.kabang.io:2443/repository/jcenter"}
-    maven{url "https://nexus.kabang.io:2443/repository/gradle-plugins"}
 }
 
 ext {
