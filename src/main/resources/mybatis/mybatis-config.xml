@@ -1,0 +1,29 @@
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "HTTP://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="useGeneratedKeys" value="true"/>
+        <setting name="defaultExecutorType" value="REUSE"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="VARCHAR"/>
+        <setting name="defaultStatementTimeout" value="10"/>
+        <setting name="defaultFetchSize" value="1000"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias alias="HashMap" type="java.util.HashMap"/>
+        <typeAlias alias="List" type="java.util.List"/>
+        <package name="com.example.javademo.model"/>
+    </typeAliases>
+
+    <typeHandlers>
+        <typeHandler handler="org.apache.ibatis.type.InstantTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.LocalDateTimeTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.LocalDateTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.LocalTimeTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.OffsetDateTimeTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.OffsetTimeTypeHandler"/>
+        <typeHandler handler="org.apache.ibatis.type.ZonedDateTimeTypeHandler"/>
+    </typeHandlers>
+</configuration>

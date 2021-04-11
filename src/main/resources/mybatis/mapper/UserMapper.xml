@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.javademo.repo.mybatis.UserMapper">
+    <select id="selectUserOne" resultType="ComUserMst">
+        select user_id
+               ,user_name
+        from master.com_user_mst a
+        where 1=1
+          and 2=2
+          and a.user_id = ${userId}
+    </select>
+</mapper>
