@@ -1,0 +1,18 @@
+spring:
+  flyway:
+    enabled: false
+
+db:
+  common:
+    minIdle: 5
+    maxPoolSize: 10
+    idleTimeout: 10000
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+  mybatis:
+    common:
+      driver-class-name: org.postgresql.Driver
+      idleTimeout: 10000
+    tmp:
+      url: jdbc:postgresql://mugu.synology.me:55432/tmp?ssl=false&charset=utf8
+      user: tmp
+      password: ENC(B9+qaKNESE4PV3eoYwjsDw==)

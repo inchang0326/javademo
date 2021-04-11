@@ -1,16 +1,14 @@
 package com.example.javademo.fwk.filter;
 
+import ch.qos.logback.classic.LoggerContext;
 import com.example.javademo.entity.FwkTransactionHst;
-import com.example.javademo.fwk.base.BaseController;
 import com.example.javademo.fwk.component.TransactionService;
-import com.example.javademo.fwk.pojo.CommonArea;
+import com.example.javademo.fwk.pojo.Commons;
 import com.example.javademo.repo.jpa.TransactionRepo;
 import lombok.extern.java.Log;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -48,6 +46,9 @@ public class ControllerAdvice {
 */
 
     @Autowired
+    Commons ca;
+
+    @Autowired
     ApplicationContext ctx;
 
     @Autowired
@@ -77,7 +78,7 @@ public class ControllerAdvice {
         log.info("Controller Start: " + signatureName + " By " + req.getRemoteAddr());
 
         /* FwkTransactionHst init start */
-        CommonArea ca = new CommonArea();
+//        CommonArea ca = new CommonArea();
         RequestContextHolder.getRequestAttributes().setAttribute("ca", ca, RequestAttributes.SCOPE_REQUEST);
         // setStatic
         if(!bSetStatic) {
@@ -87,14 +88,18 @@ public class ControllerAdvice {
         setCommonArea(req, ca);
         /* FwkTransactionHst init end */
 
-        CompletableFuture<FwkTransactionHst> futureTr = ts.saveTr(ca);
-        try {
-            Object bc = pjp.getThis();
-            if(bc instanceof BaseController) {
-                BaseController base = (BaseController) bc;
-                base.setCa(); // Request 범위에 있는 ca를 BaseController 멤버 ca에 등록
-            }
+//        log.info(MDC.get("GUID"));
+//        log.info(ca.getGid());
 
+        // add MDC
+//        MDC.put("z1", ca.getGid());
+//        LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
+//        loggerContext.putProperty("z2", ca.getGid());
+//        loggerContext.putProperty("z3", Thread.currentThread().getName());
+
+        CompletableFuture<FwkTransactionHst> futureTr = ts.saveTr(ca);
+
+        try {
             result = pjp.proceed();
         } catch (Throwable e) {
             e.printStackTrace();
@@ -133,7 +138,7 @@ public class ControllerAdvice {
         bSetStatic = true;
     }
 
-    private void setCommonArea(HttpServletRequest req, CommonArea ca) {
+    private void setCommonArea(HttpServletRequest req, Commons ca) {
         // init
         OffsetDateTime now = OffsetDateTime.now(ZoneId.of("+9"));
 

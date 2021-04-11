@@ -33,7 +33,18 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     // Spring Cloud Config - Clients Bus
-    implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+    // implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+
+    // Jasypt
+    // * properties/yml 파일 내 속성값 암호화 라이브러리
+    implementation group: 'org.jasypt', name: 'jasypt', version: '1.9.2'
+    implementation group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', version: '3.0.3'
+
+    // DB : MyBatis
+    implementation "org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0"
+    implementation "org.mybatis:mybatis:3.5.1"
+    implementation "org.mybatis:mybatis-spring:2.0.1"
+    implementation "org.mybatis:mybatis-typehandlers-jsr310:1.0.2"
 
     // DB : Embedded PostgreSQL
     runtimeOnly "org.postgresql:postgresql"
@@ -50,7 +61,7 @@ dependencies {
     implementation group: 'org.slf4j', name: 'slf4j-api'
     implementation group: 'ch.qos.logback', name: 'logback-core'
     implementation group: 'ch.qos.logback', name: 'logback-classic'
-    implementation group: 'org.codehaus.janino', name: 'janino', version: '2.5.16'
+    implementation group: 'org.codehaus.janino', name: 'janino', version: '3.0.8'
 
     // Dev
     // * lombok은 기계적으로 작성해야 하는 getter/setter 등의 메소드를 자동 생성해준다.

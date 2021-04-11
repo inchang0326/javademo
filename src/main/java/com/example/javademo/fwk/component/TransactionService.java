@@ -2,6 +2,7 @@ package com.example.javademo.fwk.component;
 
 import com.example.javademo.entity.FwkTransactionHst;
 import com.example.javademo.entity.FwkTransactionHstId;
+import com.example.javademo.fwk.pojo.Commons;
 import com.example.javademo.repo.jpa.TransactionRepo;
 import com.example.javademo.fwk.pojo.CommonArea;
 import lombok.extern.java.Log;
@@ -23,7 +24,7 @@ public class TransactionService {
     // 트래픽이 과도하니 save update같이 수행되어 pk dup 발생
     // complatablefuture
     @Async
-    public CompletableFuture<FwkTransactionHst> saveTr(CommonArea commons) {
+    public CompletableFuture<FwkTransactionHst> saveTr(Commons commons) {
         return CompletableFuture.supplyAsync(() -> {
             log.info("saveTr start");
             FwkTransactionHst tr = convertTr(commons);
@@ -32,7 +33,7 @@ public class TransactionService {
     }
 
     @Async
-    public void updateTr(CommonArea commons, CompletableFuture<FwkTransactionHst> futureTr) {
+    public void updateTr(Commons commons, CompletableFuture<FwkTransactionHst> futureTr) {
         log.info("updateTr start");
 
         try {
@@ -54,7 +55,7 @@ public class TransactionService {
     *  안정적 비동기 프로그래밍 처리에 대해
     * */
 
-    public FwkTransactionHst convertTr(CommonArea commons) {
+    public FwkTransactionHst convertTr(Commons commons) {
         // FwkTransactionHst init
         FwkTransactionHst newTr = new FwkTransactionHst();
         newTr.setTransactionDate(commons.getTransactionDate());
